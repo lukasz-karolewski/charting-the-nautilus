@@ -19,12 +19,17 @@ no server, no internet, no build step. It works offline.
   **a short passage from the book to read aloud**.
 - The chapter list shows all 47. A filled dot means Verne gives a position in that chapter;
   a hollow dot means he doesn't — usually because they are deep inside the *Nautilus*.
-- **The four legend checkboxes turn each track on and off** — hide the early sightings and the
-  chase to leave just the *Nautilus*, or hide the invented places. The choice is remembered,
-  and the day and league counters keep showing your true progress whatever is hidden.
+- **The three legend checkboxes turn each track on and off** — hide the early sightings and
+  the chase to leave just the *Nautilus*. The choice is remembered, and the day and league
+  counters keep showing your true progress whatever is hidden.
+- **The places in the chapter you are on are picked out in orange**, so you can see at a
+  glance which points tonight's reading covers — a chapter often has several.
 - **Show whole voyage** turns the gate off, for when you have finished the book.
 - **Replay** animates the voyage up to where you have read.
 - Drag to pan, scroll to zoom — useful in the crowded bits like the Torres Strait.
+  **The map wraps round.** You can keep dragging west (or east) for ever, so the Pacific
+  crossing can be followed straight through the dateline instead of jumping from one edge of
+  the map to the other.
 
 ## What is on the map
 
@@ -105,8 +110,9 @@ quote cannot drift from what Verne wrote.
 3. Time never runs backwards, and the league tally never decreases.
 4. **Implied speed.** The *Nautilus* tops out near 50 knots, so any leg over ~1,400 nm/day is
    reported. This is the check that catches a wrong hemisphere.
-5. Antimeridian crossings are counted, so the renderer is known to need the split. There are
-   two; without splitting them the route would snap back across the whole map.
+5. Antimeridian crossings are counted — there are three. These are why the map unwraps
+   longitudes (running them on past 180 so each leg is one continuous line) instead of
+   plotting them raw, which would snap the route back across the whole world.
 6. Coordinates in range, legs and place kinds valid.
 
 Basemap: Natural Earth 110m land, simplified to 115 rings.
