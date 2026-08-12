@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Voyage of the Nautilus</title>
+<style>
+  :root {
+    --bg:        #061320;
+    --ocean:     #0c2135;
+    --ocean-2:   #0a1b2b;
+    --land:      #263a4d;
+    --land-edge: #4d6c88;
+    --grid:      #16304a;
+    --ink:       #e7eef5;
+    --ink-dim:   #8ba2b8;
+    --ink-faint: #566d82;
+    --brass:     #f0b429;
+    --brass-dim: #8a6a1f;
+    --chase:     #79b0da;
+    --sight:     #b98cc4;
+    --panel:     #0a1927;
+    --edge:      #1d3348;
+    --now:       #ffffff;
+    --focus:     #ff7043;   /* places belonging to the chapter you are on */
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-weight: 600; margin: 0; }
+
+  .wrap { display: flex; flex-direction: column; height: 100vh; }
+
+  /* ---------- header ---------- */
+  header {
+    display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+    padding: 12px 20px; border-bottom: 1px solid var(--edge);
+    background: var(--panel);
+  }
+  .brand h1 { font-size: 19px; letter-spacing: .2px; }
+  .brand p  { margin: 2px 0 0; font-size: 12px; color: var(--ink-faint); }
+
+  /* three columns: title left, the reading position centred, the tallies right.
+     The outer two flex evenly so the middle sits in the true centre of the bar. */
+  .brand { flex: 1 1 0; min-width: 0; }
+  .gate  { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .tally { flex: 1 1 0; display: flex; justify-content: flex-end; gap: 22px; }
+
+  .gate-label { font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .09em; }
+  .gate-now {
+    font-size: 15px; color: var(--brass); text-align: center;
+    display: flex; align-items: baseline; gap: 8px; justify-content: center;
+  }
+  .gate-now b { font-weight: 600; }
+  .gate-now span { color: var(--ink-dim); font-size: 13px; }
+  .stepper { display: flex; align-items: center; gap: 6px; }
+  button {
+    font: inherit; font-size: 14px; color: var(--ink);
+    background: #12283d; border: 1px solid var(--edge); border-radius: 6px;
+    padding: 5px 11px; cursor: pointer;
+  }
+  button:hover:not(:disabled) { background: #1a3651; border-color: #2f557a; }
+  button:disabled { opacity: .35; cursor: default; }
+  input[type=range] { width: 220px; accent-color: var(--brass); }
+
+
+  .tally > div { text-align: right; }
+  .tally .n { font-size: 20px; color: var(--brass); font-variant-numeric: tabular-nums; }
+  .tally .k { font-size: 11px; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .08em; }
+
+  /* ---------- body ---------- */
+  main { display: flex; flex: 1; min-height: 0; }
+
+  aside {
+    width: 230px; flex: none; overflow-y: auto; padding: 10px 0 30px;
+    border-right: 1px solid var(--edge); background: var(--ocean-2);
+  }
+  .part-head {
+    padding: 14px 16px 6px; font-size: 11px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--ink-faint);
+  }
+  .ch {
+    display: flex; align-items: baseline; gap: 8px; width: 100%;
+    padding: 5px 16px; font-size: 13.5px; color: var(--ink-dim);
+    background: none; border: 0; border-radius: 0; text-align: left; cursor: pointer;
+  }
+  .ch:hover { background: #10283e; color: var(--ink); }
+  .ch .num { font-size: 11px; color: var(--ink-faint); width: 20px; flex: none; font-variant-numeric: tabular-nums; }
+  .ch .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brass); flex: none; }
+  .ch .dot.empty { background: none; border: 1px solid var(--ink-faint); }
+  /* chapters ahead of where you have read: dimmed as "not yet", still clickable */
+  .ch.beyond { opacity: .4; }
+  .ch.beyond:hover { opacity: .75; }
+  .ch.sel { background: #16324b; color: var(--ink); box-shadow: inset 3px 0 0 var(--brass); }
+  .ch.here { color: var(--brass); }
+
+  .map-col { flex: 1; min-width: 0; display: flex; flex-direction: column; background: var(--ocean); }
+  .map-tools {
+    display: flex; align-items: center; gap: 8px; padding: 7px 12px;
+    border-bottom: 1px solid var(--edge); font-size: 12px; color: var(--ink-faint);
+  }
+  /* the hint gives way before the legend does, so the checkboxes stay on one line */
+  .map-tools .hint { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .map-tools .legend { display: flex; gap: 13px; margin-left: auto; flex: none; }
+  .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .lg {
+    display: flex; align-items: center; gap: 5px; cursor: pointer;
+    user-select: none; color: var(--ink-dim); white-space: nowrap;
+  }
+  .lg:hover { color: var(--ink); }
+  .lg input { accent-color: var(--brass); width: 13px; height: 13px; margin: 0; cursor: pointer; }
+  .lg:has(input:not(:checked)) { color: var(--ink-faint); }
+  .lg:has(input:not(:checked)) i { opacity: .3; }
+  /* plain keys, not toggles: they explain a marker style rather than switch a layer */
+  .key { display: flex; align-items: center; gap: 5px; white-space: nowrap; color: var(--ink-faint); }
+  svg { flex: 1; width: 100%; min-height: 0; display: block; touch-action: none; cursor: grab; }
+  svg.dragging { cursor: grabbing; }
+  /* grabbing the map must not start a text selection - without this, dragging
+     highlights the place labels and the drag dies as a selection instead */
+  svg, svg text {
+    user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+  }
+
+  .detail {
+    width: 310px; flex: none; overflow-y: auto; padding: 18px 18px 40px;
+    border-left: 1px solid var(--edge); background: var(--panel);
+  }
+  .detail .eyebrow { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
+  .detail h2 { font-size: 21px; margin: 6px 0 2px; line-height: 1.25; }
+  .detail .sub { font-size: 14px; color: var(--brass); margin-bottom: 14px; }
+  .meta-row { display: flex; gap: 8px; font-size: 13px; padding: 5px 0; border-top: 1px solid var(--edge); }
+  .meta-row .k { color: var(--ink-faint); width: 74px; flex: none; }
+  .meta-row .v { color: var(--ink-dim); }
+  .note { margin: 14px 0 0; font-size: 14px; color: var(--ink-dim); }
+  blockquote {
+    margin: 16px 0 0; padding: 10px 0 10px 14px;
+    border-left: 2px solid var(--brass-dim);
+    font-size: 14.5px; font-style: italic; color: #cfe0ee;
+  }
+  blockquote cite { display: block; margin-top: 7px; font-size: 11.5px; font-style: normal; color: var(--ink-faint); }
+  .tag {
+    display: inline-block; font-size: 10.5px; letter-spacing: .07em; text-transform: uppercase;
+    padding: 2px 7px; border-radius: 3px; border: 1px solid; margin-right: 5px;
+  }
+  .tag.fic  { color: #d6a8e4; border-color: #6b4478; }
+  .tag.inf  { color: #9fb6c9; border-color: #33506b; }
+  .empty-state { color: var(--ink-faint); font-size: 14px; }
+
+  @media (max-width: 900px) {
+    main { flex-direction: column; }
+    aside, .detail { width: 100%; max-height: 220px; border: 0; border-top: 1px solid var(--edge); }
+    .map-col { min-height: 340px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>The Voyage of the <em>Nautilus</em></h1>
+      <p>Twenty Thousand Leagues Under the Seas &middot; 8 Nov 1867 &ndash; June 1868</p>
+    </div>
+
+    <div class="gate">
+      <div class="gate-label">We&rsquo;ve read up to</div>
+      <div class="gate-now"><b id="gate-title">&mdash;</b><span id="gate-ref"></span></div>
+      <div class="stepper">
+        <button id="prev" title="Back one chapter">&larr;</button>
+        <input type="range" id="slider" min="1" max="47" value="1">
+        <button id="next" title="Forward one chapter">&rarr;</button>
+      </div>
+    </div>
+
+    <div class="tally">
+      <div><div class="n" id="tally-day">&mdash;</div><div class="k">Day</div></div>
+      <div><div class="n" id="tally-lg">&mdash;</div><div class="k">Leagues</div></div>
+    </div>
+  </header>
+
+  <main>
+    <aside id="chapters"></aside>
+
+    <div class="map-col">
+      <div class="map-tools">
+        <button id="zin">+</button><button id="zout">&minus;</button><button id="zreset">Reset</button>
+        <span class="hint">drag to pan &mdash; the map wraps round &middot; scroll to zoom</span>
+        <div class="legend">
+          <label class="lg"><input type="checkbox" data-layer="sighting"><i style="background:var(--sight)"></i>Early sightings</label>
+          <label class="lg"><input type="checkbox" data-layer="abraham_lincoln"><i style="background:var(--chase)"></i>The chase</label>
+          <label class="lg"><input type="checkbox" data-layer="nautilus"><i style="background:var(--brass)"></i>Nautilus</label>
+          <span class="key"><i style="background:var(--focus)"></i>This chapter</span>
+          <span class="key"><i style="background:none;border:1px dashed currentColor"></i>Invented place</span>
+        </div>
+      </div>
+      <svg id="map" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+
+    <div class="detail" id="detail"></div>
+  </main>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const SVGNS = "http://www.w3.org/2000/svg";
+
+/* ---------- projection: equirectangular, so lon/lat map straight to x/y ---- */
+const W = 720, H = 360;
+const px = (lon) => (lon + 180) * (W / 360);
+const py = (lat) => (90 - lat) * (H / 180);
+
+/* ---------- persistence: file:// can throw on localStorage, so guard both -- */
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); }
+              catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* memory only */ } },
+};
+
+// Only the three tracks are switchable. Invented places stay drawn - they are
+// told apart by their dashed ring, not by a toggle.
+const DEFAULT_LAYERS = { sighting: true, abraham_lincoln: true, nautilus: true };
+const state = {
+  gate: Math.min(47, Math.max(1, store.get("nautilus.gate", 1))),
+  layers: { ...DEFAULT_LAYERS, ...store.get("nautilus.layers", {}) },
+  selected: null,
+};
+// The chapter you have read to is the only thing that gates the map now.
+const effGate = () => state.gate;
+
+const svg = document.getElementById("map");
+svg.setAttribute("viewBox", `-10 -10 ${W + 20} ${H + 20}`);
+
+// The world is drawn as a strip of identical copies side by side, and panning
+// wraps, so the Pacific can be followed straight through the dateline instead of
+// jumping from one edge to the other. COPIES spans far enough that the route -
+// which runs about 300 degrees of longitude end to end - is always covered.
+const COPIES = [-2, -1, 0, 1, 2];
+
+const gRoot = document.createElementNS(SVGNS, "g");
+svg.appendChild(gRoot);
+const layer = (cls) => { const g = document.createElementNS(SVGNS, "g"); g.setAttribute("class", cls); gRoot.appendChild(g); return g; };
+const gSea = layer("sea"), gTile = layer("tile"), gTiles = layer("tiles"),
+      gRoute = layer("route"), gPts = layer("pts"), gLbl = layer("lbl");
+gTile.setAttribute("id", "worldtile");
+const gGrid = document.createElementNS(SVGNS, "g"), gLand = document.createElementNS(SVGNS, "g");
+gTile.append(gGrid, gLand);
+
+const el = (name, attrs, parent) => {
+  const n = document.createElementNS(SVGNS, name);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(n);
+  return n;
+};
+
+/* ---------- static layers ------------------------------------------------- */
+// one continuous ocean behind every copy, so no seam shows between them
+el("rect", { x: COPIES[0] * W, y: 0, width: COPIES.length * W, height: H, fill: "var(--ocean)" }, gSea);
+
+for (let lon = -180; lon <= 180; lon += 30)
+  el("line", { x1: px(lon), y1: 0, x2: px(lon), y2: H, stroke: "var(--grid)", "stroke-width": .5, "vector-effect": "non-scaling-stroke" }, gGrid);
+for (let lat = -60; lat <= 60; lat += 30)
+  el("line", { x1: 0, y1: py(lat), x2: W, y2: py(lat), stroke: "var(--grid)", "stroke-width": .5, "vector-effect": "non-scaling-stroke" }, gGrid);
+// equator, tropics and polar circles, drawn a little brighter than the plain grid
+for (const [lat, dash] of [[0, ""], [23.44, "3 3"], [-23.44, "3 3"], [66.56, "1 4"], [-66.56, "1 4"]])
+  el("line", {
+    x1: 0, y1: py(lat), x2: W, y2: py(lat), stroke: "#24486b",
+    "stroke-width": .8, "stroke-dasharray": dash, "vector-effect": "non-scaling-stroke",
+  }, gGrid);
+
+for (const ring of DATA.land) {
+  const d = ring.map((p, i) => (i ? "L" : "M") + px(p[0]).toFixed(1) + " " + py(p[1]).toFixed(1)).join("") + "Z";
+  el("path", { d, fill: "var(--land)", stroke: "var(--land-edge)", "stroke-width": .5, "vector-effect": "non-scaling-stroke" }, gLand);
+}
+
+// the other copies of the world, referencing the one tile built above
+for (const k of COPIES)
+  if (k !== 0) el("use", { href: "#worldtile", x: k * W }, gTiles);
+
+/* ---------- laying the route out across the wrap -------------------------- */
+// Rather than cutting a segment in two at the dateline, run the longitudes on
+// past 180 so each leg is one continuous line - every step takes the short way
+// round. The tiled copies then show it wrapped, so the Pacific reads as a single
+// stretch however far you drag.
+function unwrap(pts) {
+  let lon = pts.length ? pts[0].lon : 0;
+  return pts.map((p, i) => {
+    if (i) {
+      let d = p.lon - pts[i - 1].lon;
+      if (d > 180) d -= 360; else if (d < -180) d += 360;
+      lon += d;
+    }
+    return { ...p, ux: px(lon) };
+  });
+}
+
+const LEG_STYLE = {
+  nautilus:        { stroke: "var(--brass)", width: 1.9, dash: "" },
+  abraham_lincoln: { stroke: "var(--chase)", width: 1.3, dash: "5 4" },
+};
+
+/* ---------- render -------------------------------------------------------- */
+let scale = 1, tx = 0, ty = 0;
+
+// Two different questions. gatedPoints is "how far have we read", and drives the
+// day and league tallies - turning a layer off is a display choice and must not
+// make the reader's progress read as zero. visiblePoints is what the map draws.
+function gatedPoints() {
+  const g = effGate();
+  return DATA.points.filter((p) => p.ordinal <= g);
+}
+function layerOn(p) {
+  return !!state.layers[p.leg];
+}
+function visiblePoints() {
+  return gatedPoints().filter(layerOn);
+}
+
+// Where each visible point sits along the unwrapped strip. Legs are unwrapped
+// independently; the early sightings are lone marks, so they keep their own x.
+let laid = {};
+function layout(vis) {
+  laid = {};
+  for (const leg of ["abraham_lincoln", "nautilus"])
+    for (const p of unwrap(vis.filter((q) => q.leg === leg))) laid[p.id] = p.ux;
+  for (const p of vis) if (laid[p.id] === undefined) laid[p.id] = px(p.lon);
+}
+
+function render() {
+  const vis = visiblePoints();
+  layout(vis);
+
+  // route, repeated into every copy of the world
+  gRoute.textContent = "";
+  for (const leg of ["abraham_lincoln", "nautilus"]) {
+    const pts = vis.filter((p) => p.leg === leg);
+    const st = LEG_STYLE[leg];
+    for (let i = 1; i < pts.length; i++) {
+      const a = pts[i - 1], b = pts[i];
+      for (const k of COPIES)
+        el("line", {
+          x1: laid[a.id] + k * W, y1: py(a.lat), x2: laid[b.id] + k * W, y2: py(b.lat),
+          stroke: st.stroke, "stroke-width": st.width, "stroke-dasharray": st.dash,
+          "stroke-linecap": "round", opacity: .75, "vector-effect": "non-scaling-stroke",
+        }, gRoute);
+    }
+  }
+
+  // Markers keep a constant size on screen: the whole map group is scaled by
+  // `scale`, so dividing by it exactly cancels out. Only the map zooms, the
+  // things drawn on top of it do not. Big enough to carry a number legibly.
+  const r = 6.6 / scale;
+  gPts.textContent = "";
+  const last = vis.filter((p) => p.leg === "nautilus").at(-1);
+
+  // Points of the chapter you are on are drawn last so nothing overlaps them.
+  const onChapter = (p) => p.ordinal === state.gate;
+  for (const p of [...vis.filter((q) => !onChapter(q)), ...vis.filter(onChapter)]) {
+    const isFocus = onChapter(p);
+    const color = isFocus ? "var(--focus)"
+                : p.leg === "sighting" ? "var(--sight)"
+                : p.leg === "abraham_lincoln" ? "var(--chase)" : "var(--brass)";
+    const y = py(p.lat);
+    const isSel = state.selected === p.id;
+    const isNow = last && p.id === last.id;
+    const fic = p.placeKind === "fictional";
+
+    for (const k of COPIES) {
+      const x = laid[p.id] + k * W;
+      if (isFocus) el("circle", { cx: x, cy: y, r: r * 1.95, fill: "var(--focus)", opacity: .22 }, gPts);
+      else if (isNow) el("circle", { cx: x, cy: y, r: r * 1.85, fill: "var(--now)", opacity: .16 }, gPts);
+
+      const rad = isSel ? r * 1.45 : (isFocus ? r * 1.2 : r);
+      const node = el("circle", {
+        cx: x, cy: y, r: rad, "data-id": p.id,
+        // invented places stay hollow with a dashed ring whatever colour they take
+        fill: fic ? "var(--ocean)" : color,
+        stroke: fic ? color : (isNow ? "var(--now)" : "rgba(0,0,0,.45)"),
+        "stroke-width": fic ? 1.6 : (isNow ? 1.6 : .7),
+        "stroke-dasharray": fic ? "2 2" : "",
+        "vector-effect": "non-scaling-stroke",
+        style: "cursor:pointer",
+      }, gPts);
+      // No click handler here: the svg captures the pointer while dragging, which
+      // would swallow it. A tap is resolved on pointerup instead, via data-id.
+      node.addEventListener("mouseenter", () => label(p, x, y));
+      node.addEventListener("mouseleave", () => { if (!isSel) labels(); });
+
+      // the stop number, sitting in the dot. Numbering restarts for each leg.
+      const num = el("text", {
+        x, y, "font-size": rad * 1.12, "font-weight": 700,
+        "text-anchor": "middle", "dominant-baseline": "central",
+        "font-family": "inherit",
+        fill: fic ? color : "#08131f",
+        style: "pointer-events:none",
+      }, gPts);
+      num.textContent = p.seq;
+    }
+  }
+  labels();
+  chrome();
+}
+
+// Labels only for the newest point and the selection - 75 at once is a thicket.
+function labels() {
+  gLbl.textContent = "";
+  const vis = visiblePoints();
+  const last = vis.filter((p) => p.leg === "nautilus").at(-1);
+  const sel = vis.find((p) => p.id === state.selected);
+  // one label per copy of the world, so it is there wherever you have dragged to
+  for (const k of COPIES) {
+    if (last) label(last, laid[last.id] + k * W, py(last.lat), true);
+    if (sel && (!last || sel.id !== last.id)) label(sel, laid[sel.id] + k * W, py(sel.lat));
+  }
+}
+
+function label(p, x, y, isNow) {
+  // same trick as the markers - divide by scale so the text is a fixed size
+  const inv = 1 / scale;
+  // flip the label to the left near the right-hand edge of its own copy
+  const flip = ((x % W) + W) % W > W - 120;
+  const t = el("text", {
+    x: x + (flip ? -11 : 11) * inv, y: y + 3.5 * inv,
+    "font-size": 11 * inv, fill: isNow ? "var(--now)" : "var(--ink)",
+    "text-anchor": flip ? "end" : "start",
+    "font-family": "inherit", "paint-order": "stroke",
+    stroke: "var(--ocean)", "stroke-width": 3 * inv, "stroke-linejoin": "round",
+    style: "pointer-events:none",
+  }, gLbl);
+  t.textContent = p.name;
+}
+
+/* ---------- header + chapter list ---------------------------------------- */
+function chrome() {
+  const g = effGate();
+  const naut = gatedPoints().filter((p) => p.leg === "nautilus");
+  const last = naut.at(-1);
+
+  document.getElementById("tally-day").textContent = last ? last.day : "—";
+  const lg = [...naut].reverse().find((p) => p.leagueMark != null);
+  document.getElementById("tally-lg").textContent = lg ? lg.leagueMark.toLocaleString() : "—";
+
+  const ch = DATA.chapters[state.gate - 1];
+  document.getElementById("gate-title").textContent = ch.title;
+  document.getElementById("gate-ref").textContent = `Part ${ch.part} · Ch ${ch.chapter}`;
+  document.getElementById("slider").value = state.gate;
+  document.getElementById("prev").disabled = state.gate <= 1;
+  document.getElementById("next").disabled = state.gate >= 47;
+
+  for (const b of document.querySelectorAll(".ch")) {
+    const o = +b.dataset.ordinal;
+    b.classList.toggle("beyond", o > g);
+    b.classList.toggle("here", o === g);
+    b.classList.toggle("sel", !!state.selected &&
+      DATA.points.some((p) => p.id === state.selected && p.ordinal === o));
+  }
+}
+
+const aside = document.getElementById("chapters");
+let lastPart = 0;
+for (const c of DATA.chapters) {
+  if (c.part !== lastPart) {
+    lastPart = c.part;
+    const h = document.createElement("div");
+    h.className = "part-head";
+    h.textContent = c.part === 1 ? "Part One" : "Part Two";
+    aside.appendChild(h);
+  }
+  const has = DATA.points.some((p) => p.ordinal === c.ordinal);
+  const b = document.createElement("button");
+  b.className = "ch";
+  b.dataset.ordinal = c.ordinal;
+  b.innerHTML = `<span class="num">${c.chapter}</span><span class="dot${has ? "" : " empty"}"></span><span>${c.title}</span>`;
+  // Clicking a chapter moves the reading position there, the same as the slider,
+  // and brings the map to that part of the voyage.
+  b.addEventListener("click", () => {
+    setGate(c.ordinal, true);
+    const p = DATA.points.find((x) => x.ordinal === c.ordinal);
+    if (p) { select(p.id); centreOn(p); } else showChapterOnly(c);
+  });
+  aside.appendChild(b);
+}
+
+/* ---------- detail panel -------------------------------------------------- */
+const detail = document.getElementById("detail");
+const fmtDate = (iso) => new Date(iso + "T00:00:00Z").toLocaleDateString("en-GB",
+  { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+
+function select(id) {
+  state.selected = id;
+  const p = DATA.points.find((x) => x.id === id);
+  const when = p.dateCertainty === "inferred" ? "around " + fmtDate(p.date) : fmtDate(p.date);
+  const legName = { sighting: "Before the voyage", abraham_lincoln: "Chasing the monster", nautilus: "Aboard the Nautilus" }[p.leg];
+
+  detail.innerHTML = `
+    <div class="eyebrow">Part ${p.part} &middot; Chapter ${p.chapter} &middot; ${p.chapterTitle}</div>
+    <h2>${p.kidName}</h2>
+    <div class="sub">${p.name}</div>
+    ${p.placeKind === "fictional" ? '<span class="tag fic">Invented place</span>' : ""}
+    ${p.dateCertainty === "inferred" ? '<span class="tag inf">Date estimated</span>' : ""}
+    <div style="height:12px"></div>
+    <div class="meta-row"><span class="k">When</span><span class="v">${when}</span></div>
+    ${p.leg === "nautilus" ? `<div class="meta-row"><span class="k">Day</span><span class="v">${p.day} aboard</span></div>` : ""}
+    ${p.leagueMark != null ? `<div class="meta-row"><span class="k">Leagues</span><span class="v">${p.leagueMark.toLocaleString()} so far</span></div>` : ""}
+    <div class="meta-row"><span class="k">Position</span><span class="v">${
+      Math.abs(p.lat) === 90 ? "the pole itself" : `${dms(p.lat, "NS")}, ${dms(p.lon, "EW")}`
+    }</span></div>
+    <div class="meta-row"><span class="k">Stage</span><span class="v">${legName} &middot; stop ${p.seq} of ${DATA.legTotals[p.leg]}</span></div>
+    ${p.note ? `<p class="note">${p.note}</p>` : ""}
+    <blockquote>&ldquo;${p.quote}&rdquo;<cite>Verne, Part ${p.part} ch. ${p.chapter} &mdash; read this bit aloud</cite></blockquote>`;
+  render();
+}
+
+function showChapterOnly(c) {
+  state.selected = null;
+  detail.innerHTML = `
+    <div class="eyebrow">Part ${c.part} &middot; Chapter ${c.chapter}</div>
+    <h2>${c.title}</h2>
+    <p class="note">Verne gives no position in this chapter &mdash; they are deep inside the
+    <em>Nautilus</em>, or the story has stopped to look at something rather than to sail
+    somewhere. The voyage picks up again at the next marked chapter.</p>`;
+  render();
+}
+
+function emptyDetail() {
+  detail.innerHTML = `<p class="empty-state">Pick a chapter on the left, or click a point on the
+    map, to see where they were and what happened there.</p>`;
+}
+
+function dms(v, hemis) {
+  const h = hemis[v < 0 ? 1 : 0];
+  const a = Math.abs(v), d = Math.floor(a), m = Math.round((a - d) * 60);
+  return `${d}° ${String(m).padStart(2, "0")}′ ${h}`;
+}
+
+emptyDetail();
+
+/* ---------- gate controls ------------------------------------------------- */
+function setGate(n, keepSel) {
+  state.gate = Math.min(47, Math.max(1, n));
+  store.set("nautilus.gate", state.gate);
+  if (!keepSel && state.selected) {
+    const p = DATA.points.find((x) => x.id === state.selected);
+    if (p && p.ordinal > effGate()) { state.selected = null; emptyDetail(); }
+  }
+  render();
+}
+
+document.getElementById("prev").onclick = () => setGate(state.gate - 1);
+document.getElementById("next").onclick = () => setGate(state.gate + 1);
+document.getElementById("slider").oninput = (e) => setGate(+e.target.value);
+for (const box of document.querySelectorAll("[data-layer]")) {
+  box.checked = !!state.layers[box.dataset.layer];
+  box.addEventListener("change", () => {
+    state.layers[box.dataset.layer] = box.checked;
+    store.set("nautilus.layers", state.layers);
+    // if the selected point just got hidden, drop the selection with it
+    const sel = state.selected && DATA.points.find((p) => p.id === state.selected);
+    if (sel && !layerOn(sel)) { state.selected = null; emptyDetail(); }
+    render();
+  });
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowLeft") setGate(state.gate - 1);
+  if (e.key === "ArrowRight") setGate(state.gate + 1);
+});
+
+/* ---------- pan and zoom -------------------------------------------------- */
+// Horizontal panning wraps: tx is folded back into one world-width, and because
+// the copies are identical the map slides round for ever with no edge to hit.
+// Vertically there is nothing to wrap to, so it is clamped to the map instead.
+// Returns how far tx was moved, so a drag in progress can keep its reference.
+function normalize() {
+  const world = W * scale;
+  const before = tx;
+  tx = ((tx % world) - world) % world;   // fold into (-world, 0]
+  ty = Math.min(0, Math.max(-(scale - 1) * H, ty));
+  return tx - before;
+}
+function setTransform() {
+  normalize();
+  gRoot.setAttribute("transform", `translate(${tx} ${ty}) scale(${scale})`);
+}
+function applyTransform() {
+  setTransform();
+  render();
+}
+// Bring a waypoint to the middle of the view. At scale 1 the whole world is
+// already on screen, so there is nothing to move and panning would only jar.
+function centreOn(p) {
+  if (scale <= 1) return;
+  tx = W / 2 - scale * (laid[p.id] ?? px(p.lon));
+  ty = H / 2 - scale * py(p.lat);
+  applyTransform();
+}
+
+function zoomAt(factor, cx, cy) {
+  const s2 = Math.min(12, Math.max(1, scale * factor));
+  const k = s2 / scale;
+  tx = cx - (cx - tx) * k;
+  ty = cy - (cy - ty) * k;
+  scale = s2;
+  if (scale === 1) ty = 0;
+  applyTransform();
+}
+const toLocal = (e) => {
+  const r = svg.getBoundingClientRect();
+  const vb = svg.viewBox.baseVal;
+  const sc = Math.min(r.width / vb.width, r.height / vb.height);
+  return {
+    x: (e.clientX - r.left - (r.width - vb.width * sc) / 2) / sc + vb.x,
+    y: (e.clientY - r.top - (r.height - vb.height * sc) / 2) / sc + vb.y,
+  };
+};
+svg.addEventListener("wheel", (e) => {
+  e.preventDefault();
+  const p = toLocal(e);
+  zoomAt(e.deltaY < 0 ? 1.18 : 1 / 1.18, p.x, p.y);
+}, { passive: false });
+
+// A press is only a drag once it has travelled a few pixels. Below that it is a
+// tap, and the point under it gets selected. Capturing the pointer straight away
+// would send the whole gesture - including the click - to the svg, so a marker
+// could never be clicked at all.
+const DRAG_SLOP = 3;
+let drag = null;
+
+svg.addEventListener("pointerdown", (e) => {
+  e.preventDefault(); // stop the browser starting a text selection on the drag
+  const hit = e.target instanceof Element ? e.target.getAttribute("data-id") : null;
+  drag = { ...toLocal(e), tx, ty, hit, moved: false };
+});
+
+svg.addEventListener("pointermove", (e) => {
+  if (!drag) return;
+  const p = toLocal(e);
+  const dx = p.x - drag.x, dy = p.y - drag.y;
+  if (!drag.moved) {
+    if (Math.hypot(dx, dy) < DRAG_SLOP) return;   // still a tap
+    drag.moved = true;
+    svg.setPointerCapture(e.pointerId);
+    svg.classList.add("dragging");
+  }
+  tx = drag.tx + dx;
+  ty = drag.ty + dy;
+  // wrapping shifts tx by a whole world; move the drag origin with it so the
+  // map keeps following the pointer instead of lurching at the seam
+  drag.tx += normalize();
+  gRoot.setAttribute("transform", `translate(${tx} ${ty}) scale(${scale})`);
+});
+
+svg.addEventListener("pointerup", () => {
+  if (drag && !drag.moved && drag.hit) select(drag.hit);
+  drag = null;
+  svg.classList.remove("dragging");
+});
+svg.addEventListener("pointercancel", () => { drag = null; svg.classList.remove("dragging"); });
+
+document.getElementById("zin").onclick = () => zoomAt(1.4, W / 2, H / 2);
+document.getElementById("zout").onclick = () => zoomAt(1 / 1.4, W / 2, H / 2);
+document.getElementById("zreset").onclick = () => { scale = 1; tx = 0; ty = 0; applyTransform(); };
+
+render();
+</script>
+</body>
+</html>

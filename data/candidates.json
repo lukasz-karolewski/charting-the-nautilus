@@ -1,0 +1,2251 @@
+{
+  "counts": {
+    "chapters": 47,
+    "part1": 24,
+    "part2": 23,
+    "dates": 147,
+    "coords": 71,
+    "coordsMissingHemisphere": 49,
+    "leagueMarks": 22
+  },
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 1,
+      "title": "A Runaway Reef",
+      "ordinal": 1,
+      "dates": [
+        {
+          "month": "July",
+          "day": 20,
+          "line": 356,
+          "context": "relegating it to the realm of fiction, that charge had to be dropped. In essence, on July 20, 1866, the steamer Governor Higginson, from the Calcutta & Burnach Steam Navigation Co., encountered this moving mass five miles off the eastern shores of Australia."
+        },
+        {
+          "month": "July",
+          "day": 23,
+          "line": 368,
+          "context": "spurt from its blowholes waterspouts mixed with air and steam. Similar events were likewise observed in Pacific seas, on July 23 of the same year, by the Christopher Columbus from the West India & Pacific Steam Navigation Co. Consequently, this extraordinary cetacean"
+        },
+        {
+          "month": "March",
+          "day": 5,
+          "line": 455,
+          "context": "unfixed and elusive. On March 5, 1867, the Moravian from the Montreal Ocean Co., lying during the night in latitude 27 degrees 30′ and longitude 72 degrees 15′, ran its starboard quarter afoul of a rock marked on no charts of"
+        },
+        {
+          "month": "April",
+          "day": 13,
+          "line": 509,
+          "context": "provoked by this accident involving one of its finest steamers. On April 13, 1867, with a smooth sea and a moderate breeze, the Scotia lay in longitude 15 degrees 12′ and latitude 45 degrees 37′. It was traveling at a speed of 13.43 knots under the thrust of its"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 42,
+          "min": 15,
+          "hemisphere": "north",
+          "line": 381,
+          "context": "on opposite tacks in that part of the Atlantic lying between the United States and Europe, respectively signaled each other that the monster had been sighted in latitude 42 degrees 15′ north and longitude 60 degrees 35′ west of the meridian of Greenwich. From their simultaneous observations, they were able to estimate the mammal’s"
+        },
+        {
+          "axis": "longitude",
+          "deg": 60,
+          "min": 35,
+          "hemisphere": "west",
+          "line": 382,
+          "context": "United States and Europe, respectively signaled each other that the monster had been sighted in latitude 42 degrees 15′ north and longitude 60 degrees 35′ west of the meridian of Greenwich. From their simultaneous observations, they were able to estimate the mammal’s minimum length at more than 350 English feet;* this was because both"
+        },
+        {
+          "axis": "latitude",
+          "deg": 27,
+          "min": 30,
+          "hemisphere": null,
+          "line": 456,
+          "context": "On March 5, 1867, the Moravian from the Montreal Ocean Co., lying during the night in latitude 27 degrees 30′ and longitude 72 degrees 15′, ran its starboard quarter afoul of a rock marked on no charts of these waterways. Under the combined efforts of wind and 400-horsepower"
+        },
+        {
+          "axis": "longitude",
+          "deg": 72,
+          "min": 0,
+          "hemisphere": null,
+          "line": 456,
+          "context": "On March 5, 1867, the Moravian from the Montreal Ocean Co., lying during the night in latitude 27 degrees 30′ and longitude 72 degrees 15′, ran its starboard quarter afoul of a rock marked on no charts of these waterways. Under the combined efforts of wind and 400-horsepower"
+        },
+        {
+          "axis": "longitude",
+          "deg": 15,
+          "min": 12,
+          "hemisphere": null,
+          "line": 510,
+          "context": "On April 13, 1867, with a smooth sea and a moderate breeze, the Scotia lay in longitude 15 degrees 12′ and latitude 45 degrees 37′. It was traveling at a speed of 13.43 knots under the thrust of its 1,000-horsepower engines. Its paddle wheels were churning the sea with"
+        },
+        {
+          "axis": "latitude",
+          "deg": 45,
+          "min": 37,
+          "hemisphere": null,
+          "line": 510,
+          "context": "On April 13, 1867, with a smooth sea and a moderate breeze, the Scotia lay in longitude 15 degrees 12′ and latitude 45 degrees 37′. It was traveling at a speed of 13.43 knots under the thrust of its 1,000-horsepower engines. Its paddle wheels were churning the sea with"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 2000,
+          "line": 377,
+          "context": "nautical leagues. Fifteen days later and 2,000 leagues farther, the Helvetia from the Compagnie Nationale and the Shannon from the Royal Mail line, running on opposite tacks in that part of the Atlantic lying between the"
+        }
+      ],
+      "lineRange": [
+        314,
+        574
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "title": "The Pros and Cons",
+      "ordinal": 2,
+      "dates": [
+        {
+          "month": "April",
+          "day": 30,
+          "line": 659,
+          "context": "discussed the question in its every aspect, both political and scientific, and this is an excerpt from the well-padded article I published in the issue of April 30. “Therefore,” I wrote, “after examining these different hypotheses one"
+        },
+        {
+          "month": "June",
+          "day": 2,
+          "line": 780,
+          "context": "So the frigate was equipped for a far-off voyage and armed with fearsome fishing gear, but nobody knew where to steer it. And impatience grew until, on June 2, word came that the Tampico, a steamer on the San Francisco line sailing from California to Shanghai, had sighted the animal again, three weeks before in the northerly seas"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        575,
+        815
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "title": "As Master Wishes",
+      "ordinal": 3,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        816,
+        1060
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "title": "Ned Land",
+      "ordinal": 4,
+      "dates": [
+        {
+          "month": "June",
+          "day": 25,
+          "line": 1160,
+          "context": "take him to task. During the magnificent evening of June 25—in other words, three weeks after our departure—the frigate lay abreast of Cabo Blanco, thirty miles to leeward of the coast of Patagonia. We had crossed the Tropic"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        1061,
+        1349
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "title": "At Random!",
+      "ordinal": 5,
+      "dates": [
+        {
+          "month": "June",
+          "day": 30,
+          "line": 1360,
+          "context": "him. Off the Falkland Islands on June 30, the frigate came in contact with a fleet of American whalers, and we learned that they hadn’t seen the narwhale. But one of them, the captain of the Monroe, knew that Ned"
+        },
+        {
+          "month": "July",
+          "day": 3,
+          "line": 1374,
+          "context": "The frigate sailed along the east coast of South America with prodigious speed. By July 3 we were at the entrance to the Strait of Magellan, abreast of Cabo de las Virgenes. But Commander Farragut was unwilling to attempt this tortuous passageway and maneuvered instead"
+        },
+        {
+          "month": "July",
+          "day": 6,
+          "line": 1384,
+          "context": "because “he’s too big for it!” Near three o’clock in the afternoon on July 6, fifteen miles south of shore, the Abraham Lincoln doubled that solitary islet at the tip of the South American continent, that stray rock Dutch seamen had named"
+        },
+        {
+          "month": "July",
+          "day": 20,
+          "line": 1455,
+          "context": "appearing, and soon. On July 20 we cut the Tropic of Capricorn at longitude 105 degrees, and by the 27th of the same month, we had cleared the equator on the 110th meridian. These bearings determined, the frigate took a more"
+        },
+        {
+          "month": "November",
+          "day": 2,
+          "line": 1522,
+          "context": "European seas. This promise was given on November 2. It had the immediate effect of reviving the crew’s failing spirits. The ocean was observed with renewed care. Each man wanted one last look with which to sum up his"
+        },
+        {
+          "month": "November",
+          "day": 4,
+          "line": 1536,
+          "context": "Lincoln heaved to, its longboats radiated in every direction around it and didn’t leave a single point of the sea unexplored. But the evening of November 4 arrived with this underwater mystery still unsolved. At noon the next day, November 5, the agreed-upon delay expired. After"
+        },
+        {
+          "month": "November",
+          "day": 5,
+          "line": 1538,
+          "context": "of November 4 arrived with this underwater mystery still unsolved. At noon the next day, November 5, the agreed-upon delay expired. After a position fix, true to his promise, Commander Farragut would have to set his course for the southeast and leave the northerly regions of"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "longitude",
+          "deg": 105,
+          "min": 0,
+          "hemisphere": null,
+          "line": 1455,
+          "context": "appearing, and soon. On July 20 we cut the Tropic of Capricorn at longitude 105 degrees, and by the 27th of the same month, we had cleared the equator on the 110th meridian. These bearings determined, the frigate took a more"
+        },
+        {
+          "axis": "latitude",
+          "deg": 31,
+          "min": 15,
+          "hemisphere": "north",
+          "line": 1543,
+          "context": "the Pacific decisively behind. By then the frigate lay in latitude 31 degrees 15′ north and longitude 136 degrees 42′ east. The shores of Japan were less than 200 miles to our leeward. Night was coming on. Eight o’clock had just struck. Huge"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        1350,
+        1599
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "title": "At Full Steam",
+      "ordinal": 6,
+      "dates": [
+        {
+          "month": "November",
+          "day": 6,
+          "line": 1955,
+          "context": "struggled on with tireless persistence. I estimate that we covered a distance of at least 500 kilometers during this ill-fated day of November 6. But night fell and wrapped the surging ocean in its shadows."
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        1600,
+        1997
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 7,
+      "title": "A Whale of Unknown Species",
+      "ordinal": 7,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        1998,
+        2341
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 8,
+      "title": "“Mobilis in Mobili”",
+      "ordinal": 8,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        2342,
+        2684
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 9,
+      "title": "The Tantrums of Ned Land",
+      "ordinal": 9,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        2685,
+        2992
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 10,
+      "title": "The Man of the Waters",
+      "ordinal": 10,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        2993,
+        3383
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 11,
+      "title": "The Nautilus",
+      "ordinal": 11,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        3384,
+        3699
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 12,
+      "title": "Everything through Electricity",
+      "ordinal": 12,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        3700,
+        3996
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 13,
+      "title": "Some Figures",
+      "ordinal": 13,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        3997,
+        4281
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 14,
+      "title": "The Black Current",
+      "ordinal": 14,
+      "dates": [
+        {
+          "month": "November",
+          "day": 8,
+          "line": 4384,
+          "context": "“We’re in longitude 137 degrees 15′ west of the meridian of Paris, and latitude 30 degrees 7′ north, in other words, about 300 miles from the shores of Japan. At noon on this day of November 8, we hereby begin our voyage of exploration under the waters.”"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "longitude",
+          "deg": 137,
+          "min": 15,
+          "hemisphere": "west",
+          "line": 4371,
+          "context": "observations of hour angles. Then he told me: “Professor Aronnax, we’re in longitude 137 degrees 15′ west—” “West of which meridian?” I asked quickly, hoping the captain’s reply"
+        },
+        {
+          "axis": "longitude",
+          "deg": 137,
+          "min": 15,
+          "hemisphere": "west",
+          "line": 4382,
+          "context": "This reply told me nothing. I bowed, and the commander went on: “We’re in longitude 137 degrees 15′ west of the meridian of Paris, and latitude 30 degrees 7′ north, in other words, about 300 miles from the shores of Japan. At noon on this day of November 8, we hereby begin"
+        },
+        {
+          "axis": "latitude",
+          "deg": 30,
+          "min": 7,
+          "hemisphere": "north",
+          "line": 4383,
+          "context": "“We’re in longitude 137 degrees 15′ west of the meridian of Paris, and latitude 30 degrees 7′ north, in other words, about 300 miles from the shores of Japan. At noon on this day of November 8, we hereby begin our voyage of exploration under the waters.”"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        4282,
+        4774
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 15,
+      "title": "An Invitation in Writing",
+      "ordinal": 15,
+      "dates": [
+        {
+          "month": "November",
+          "day": 9,
+          "line": 4780,
+          "context": "THE NEXT DAY, November 9, I woke up only after a long, twelve-hour slumber. Conseil, a creature of habit, came to ask “how master’s night went,” and to offer his services. He had left his Canadian friend"
+        },
+        {
+          "month": "November",
+          "day": 10,
+          "line": 4821,
+          "context": "miles per hour, and a depth between fifty and sixty meters. Next day, November 10: the same neglect, the same solitude. I didn’t see a soul from the crew. Ned and Conseil spent the better part of the day with me. They were astonished at the captain’s inexplicable"
+        },
+        {
+          "month": "November",
+          "day": 11,
+          "line": 4837,
+          "context": "I wrote it on paper manufactured from marine eelgrass. Early in the morning on November 11, fresh air poured through the Nautilus’s interior, informing me that we had returned to the surface of the ocean to renew our oxygen supply. I headed for the central"
+        },
+        {
+          "month": "November",
+          "day": 16,
+          "line": 4885,
+          "context": "I was pursuing the policy that we had seen the last of him, when on November 16, while reentering my stateroom with Ned and Conseil, I found a note addressed to me on the table."
+        },
+        {
+          "month": "November",
+          "day": 16,
+          "line": 4896,
+          "context": "Professor Aronnax Aboard the Nautilus November 16, 1867 Captain Nemo invites Professor Aronnax on a hunting trip that will"
+        },
+        {
+          "month": "November",
+          "day": 17,
+          "line": 4941,
+          "context": "fell asleep; but not without some anxieties. When I woke up the next day, November 17, I sensed that the Nautilus was completely motionless. I dressed hurriedly and entered the main lounge."
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 32,
+          "min": 40,
+          "hemisphere": "north",
+          "line": 4924,
+          "context": "“First let’s look into this Crespo Island.” I consulted the world map; and in latitude 32 degrees 40′ north and longitude 167 degrees 50′ west, I found an islet that had been discovered in 1801 by Captain Crespo, which old Spanish charts called"
+        },
+        {
+          "axis": "longitude",
+          "deg": 167,
+          "min": 50,
+          "hemisphere": "west",
+          "line": 4925,
+          "context": "I consulted the world map; and in latitude 32 degrees 40′ north and longitude 167 degrees 50′ west, I found an islet that had been discovered in 1801 by Captain Crespo, which old Spanish charts called Rocca de la Plata, in other words, “Silver Rock.” So we were about"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        4775,
+        5146
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 16,
+      "title": "Strolling the Plains",
+      "ordinal": 16,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        5147,
+        5398
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 17,
+      "title": "An Underwater Forest",
+      "ordinal": 17,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        5399,
+        5666
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 18,
+      "title": "Four Thousand Leagues Under the Pacific",
+      "ordinal": 18,
+      "dates": [
+        {
+          "month": "November",
+          "day": 18,
+          "line": 5672,
+          "context": "BY THE NEXT MORNING, November 18, I was fully recovered from my exhaustion of the day before, and I climbed onto the platform just as the Nautilus’s chief officer was pronouncing his daily phrase. It then"
+        },
+        {
+          "month": "November",
+          "day": 26,
+          "line": 5866,
+          "context": "be a temperature common to all latitudes. On November 26, at three o’clock in the morning, the Nautilus cleared the Tropic of Cancer at longitude 172 degrees. On the 27th it passed in sight of the Hawaiian Islands, where the famous Captain Cook met"
+        },
+        {
+          "month": "February",
+          "day": 14,
+          "line": 5869,
+          "context": "the Tropic of Cancer at longitude 172 degrees. On the 27th it passed in sight of the Hawaiian Islands, where the famous Captain Cook met his death on February 14, 1779. By then we had fared 4,860 leagues from our starting point. When I arrived on the platform that morning, I saw the Island of Hawaii two miles to leeward, the largest of the"
+        },
+        {
+          "month": "December",
+          "day": 1,
+          "line": 5880,
+          "context": "this part of the ocean. The Nautilus kept to its southeasterly heading. On December 1 it cut the equator at longitude 142 degrees, and on the 4th of the same month, after a quick crossing marked by no incident, we raised the"
+        },
+        {
+          "month": "December",
+          "day": 4,
+          "line": 5895,
+          "context": "After leaving these delightful islands to the protection of the French flag, the Nautilus covered about 2,000 miles from December 4 to the 11th. Its navigating was marked by an encounter with an immense school of squid, unusual mollusks that are near neighbors of the"
+        },
+        {
+          "month": "December",
+          "day": 9,
+          "line": 5907,
+          "context": "Galen. It was during the night of December 9-10 that the Nautilus encountered this army of distinctly nocturnal mollusks. They numbered in the millions. They were migrating from the temperate zones toward zones"
+        },
+        {
+          "month": "December",
+          "day": 11,
+          "line": 5927,
+          "context": "liquid element, but also to probe the ocean’s most daunting mysteries. During the day of December 11, I was busy reading in the main lounge. Ned Land and Conseil were observing the luminous waters through the gaping panels. The Nautilus was motionless. Its ballast"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "longitude",
+          "deg": 172,
+          "min": 0,
+          "hemisphere": null,
+          "line": 5867,
+          "context": "On November 26, at three o’clock in the morning, the Nautilus cleared the Tropic of Cancer at longitude 172 degrees. On the 27th it passed in sight of the Hawaiian Islands, where the famous Captain Cook met his death on February 14, 1779. By then we had fared 4,860 leagues"
+        },
+        {
+          "axis": "longitude",
+          "deg": 142,
+          "min": 0,
+          "hemisphere": null,
+          "line": 5881,
+          "context": "The Nautilus kept to its southeasterly heading. On December 1 it cut the equator at longitude 142 degrees, and on the 4th of the same month, after a quick crossing marked by no incident, we raised the Marquesas Islands. Three miles off, in latitude 8 degrees 57′ south"
+        },
+        {
+          "axis": "latitude",
+          "deg": 8,
+          "min": 57,
+          "hemisphere": "south",
+          "line": 5883,
+          "context": "the equator at longitude 142 degrees, and on the 4th of the same month, after a quick crossing marked by no incident, we raised the Marquesas Islands. Three miles off, in latitude 8 degrees 57′ south and longitude 139 degrees 32′ west, I spotted Martin Point on Nuku Hiva, chief member of this island group that belongs to France. I"
+        },
+        {
+          "axis": "longitude",
+          "deg": 139,
+          "min": 32,
+          "hemisphere": "west",
+          "line": 5884,
+          "context": "month, after a quick crossing marked by no incident, we raised the Marquesas Islands. Three miles off, in latitude 8 degrees 57′ south and longitude 139 degrees 32′ west, I spotted Martin Point on Nuku Hiva, chief member of this island group that belongs to France. I could make out only its wooded mountains on the horizon, because"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 4860,
+          "line": 5869,
+          "context": "the Tropic of Cancer at longitude 172 degrees. On the 27th it passed in sight of the Hawaiian Islands, where the famous Captain Cook met his death on February 14, 1779. By then we had fared 4,860 leagues from our starting point. When I arrived on the platform that morning, I saw the Island of Hawaii two miles to leeward, the largest of the"
+        }
+      ],
+      "lineRange": [
+        5667,
+        5990
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 19,
+      "title": "Vanikoro",
+      "ordinal": 19,
+      "dates": [
+        {
+          "month": "December",
+          "day": 11,
+          "line": 6003,
+          "context": "Meanwhile, continuously swept along by the Nautilus, where we lived in near isolation, we raised the Tuamotu Islands on December 11, that old “dangerous group” associated with the French global navigator Commander Bougainville; it stretches from Ducie Island to Lazareff"
+        },
+        {
+          "month": "December",
+          "day": 15,
+          "line": 6097,
+          "context": "centigrade. By December 15 we had left the alluring Society Islands in the west, likewise elegant Tahiti, queen of the Pacific. In the morning I spotted this island’s lofty summits a few miles to leeward. Its waters"
+        },
+        {
+          "month": "December",
+          "day": 25,
+          "line": 6145,
+          "context": "minimum daily requirement for nitrogen. On December 25 the Nautilus navigated amid the island group of the New Hebrides, which the Portuguese seafarer Queirós discovered in 1606, which Commander Bougainville explored in 1768, and to which Captain"
+        },
+        {
+          "month": "September",
+          "day": 28,
+          "line": 6225,
+          "context": "In 1791, justly concerned about the fate of these two sloops of war, the French government fitted out two large cargo boats, the Search and the Hope, which left Brest on September 28 under orders from Rear Admiral Bruni d’Entrecasteaux. Two months later, testimony from a certain Commander Bowen, aboard the Albemarle, alleged that rubble"
+        },
+        {
+          "month": "May",
+          "day": 15,
+          "line": 6242,
+          "context": "It was an old hand at the Pacific, the English adventurer Captain Peter Dillon, who was the first to pick up the trail left by castaways from the wrecked vessels. On May 15, 1824, his ship, the St. Patrick, passed by Tikopia Island, one of the New Hebrides. There a native boatman pulled alongside in a dugout canoe and sold Dillon a silver"
+        },
+        {
+          "month": "January",
+          "day": 23,
+          "line": 6260,
+          "context": "Society and the East India Company in his discovery. A ship named after the Search was placed at his disposal, and he departed on January 23, 1827, accompanied by a French deputy. This new Search, after putting in at several stops over the Pacific,"
+        },
+        {
+          "month": "July",
+          "day": 7,
+          "line": 6263,
+          "context": "This new Search, after putting in at several stops over the Pacific, dropped anchor before Vanikoro on July 7, 1827, in the same harbor of Vana where the Nautilus was currently floating."
+        },
+        {
+          "month": "April",
+          "day": 7,
+          "line": 6274,
+          "context": "Finishing his investigations, Dillon stayed at the site of the casualty until the month of October. Then he left Vanikoro, headed toward New Zealand, dropped anchor at Calcutta on April 7, 1828, and returned to France, where he received a very cordial welcome from King Charles X."
+        },
+        {
+          "month": "February",
+          "day": 10,
+          "line": 6298,
+          "context": "trail. On February 10, 1828, the new Astrolabe hove before Tikopia Island, took on a guide and interpreter in the person of a deserter who had settled there, plied a course toward Vanikoro, raised it on February"
+        },
+        {
+          "month": "March",
+          "day": 17,
+          "line": 6336,
+          "context": "Then Dumont d’Urville tried to depart; but his crews were run down from the fevers raging on these unsanitary shores, and quite ill himself, he was unable to weigh anchor until March 17. Meanwhile, fearing that Dumont d’Urville wasn’t abreast of Dillon’s"
+        },
+        {
+          "month": "December",
+          "day": 7,
+          "line": 6369,
+          "context": "solemn voice: “Commander La Pérouse set out on December 7, 1785, with his ships, the Compass and the Astrolabe. He dropped anchor first at Botany Bay, visited the Tonga Islands and New Caledonia, headed toward the Santa"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 13,
+          "min": 30,
+          "hemisphere": null,
+          "line": 6007,
+          "context": "Commander Bougainville; it stretches from Ducie Island to Lazareff Island over an area of 500 leagues from the east-southeast to the west-northwest, between latitude 13 degrees 30′ and 23 degrees 50′ south, and between longitude 125 degrees 30′ and 151 degrees 30′ west. This island group covers a surface area of 370 square leagues,"
+        },
+        {
+          "axis": "longitude",
+          "deg": 125,
+          "min": 30,
+          "hemisphere": null,
+          "line": 6008,
+          "context": "Island over an area of 500 leagues from the east-southeast to the west-northwest, between latitude 13 degrees 30′ and 23 degrees 50′ south, and between longitude 125 degrees 30′ and 151 degrees 30′ west. This island group covers a surface area of 370 square leagues, and it’s made up of some sixty subgroups, among which we noted the"
+        },
+        {
+          "axis": "longitude",
+          "deg": 135,
+          "min": 0,
+          "hemisphere": null,
+          "line": 6091,
+          "context": "Near evening Reao Island melted into the distance, and the Nautilus noticeably changed course. After touching the Tropic of Capricorn at longitude 135 degrees, it headed west-northwest, going back up the whole intertropical zone. Although the summer sun lavished its rays on us, we never suffered from the heat, because thirty or forty meters"
+        },
+        {
+          "axis": "longitude",
+          "deg": 174,
+          "min": 0,
+          "hemisphere": null,
+          "line": 6114,
+          "context": "Extending over an expanse of 100 leagues north to south, and over 90 leagues east to west, this island group lies between latitude 2 degrees and 6 degrees south, and between longitude 174 degrees and 179 degrees west. It consists of a number of islands, islets, and reefs, among which we noted the islands of Viti Levu, Vanua Levu, and Kadavu."
+        },
+        {
+          "axis": "longitude",
+          "deg": 164,
+          "min": 0,
+          "hemisphere": null,
+          "line": 6151,
+          "context": "nine large islands and forms a 120-league strip from the north-northwest to the south-southeast, lying between latitude 2 degrees and 15 degrees south, and between longitude 164 degrees and 168 degrees. At the moment of our noon sights, we passed fairly close to the island of Aurou, which looked to me like a mass of green woods"
+        },
+        {
+          "axis": "latitude",
+          "deg": 16,
+          "min": 4,
+          "hemisphere": null,
+          "line": 6191,
+          "context": "facing the island of Vanikoro proper, to which Captain Dumont d’Urville had given the name “Island of the Search”; we lay right in front of the little harbor of Vana, located in latitude 16 degrees 4′ south and longitude 164 degrees 32′ east. Its shores seemed covered with greenery from its beaches to its summits inland, crowned by"
+        },
+        {
+          "axis": "longitude",
+          "deg": 164,
+          "min": 32,
+          "hemisphere": "east",
+          "line": 6192,
+          "context": "d’Urville had given the name “Island of the Search”; we lay right in front of the little harbor of Vana, located in latitude 16 degrees 4′ south and longitude 164 degrees 32′ east. Its shores seemed covered with greenery from its beaches to its summits inland, crowned by Mt. Kapogo, which is 476 fathoms high."
+        },
+        {
+          "axis": "latitude",
+          "deg": 8,
+          "min": 18,
+          "hemisphere": "south",
+          "line": 6289,
+          "context": "heard about Dillon’s findings, and he further learned that a certain James Hobbs, chief officer on the Union out of Calcutta, had put to shore on an island located in latitude 8 degrees 18′ south and longitude 156 degrees 30′ east, and had noted the natives of those waterways making use of iron bars and red fabrics."
+        },
+        {
+          "axis": "longitude",
+          "deg": 156,
+          "min": 30,
+          "hemisphere": "east",
+          "line": 6290,
+          "context": "James Hobbs, chief officer on the Union out of Calcutta, had put to shore on an island located in latitude 8 degrees 18′ south and longitude 156 degrees 30′ east, and had noted the natives of those waterways making use of iron bars and red fabrics."
+        }
+      ],
+      "leagues": [
+        {
+          "value": 500,
+          "line": 6006,
+          "context": "“dangerous group” associated with the French global navigator Commander Bougainville; it stretches from Ducie Island to Lazareff Island over an area of 500 leagues from the east-southeast to the west-northwest, between latitude 13 degrees 30′ and 23 degrees 50′ south, and between longitude 125 degrees 30′ and 151 degrees 30′"
+        },
+        {
+          "value": 100,
+          "line": 6112,
+          "context": "Nantes, France. Extending over an expanse of 100 leagues north to south, and over 90 leagues east to west, this island group lies between latitude 2 degrees and 6 degrees south, and between longitude 174 degrees and 179"
+        }
+      ],
+      "lineRange": [
+        5991,
+        6402
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 20,
+      "title": "The Torres Strait",
+      "ordinal": 20,
+      "dates": [
+        {
+          "month": "December",
+          "day": 27,
+          "line": 6408,
+          "context": "DURING THE NIGHT of December 27-28, the Nautilus left the waterways of Vanikoro behind with extraordinary speed. Its heading was southwesterly, and in three days it had cleared the 750 leagues that"
+        },
+        {
+          "month": "January",
+          "day": 1,
+          "line": 6413,
+          "context": "separated La Pérouse’s islands from the southeastern tip of Papua. On January 1, 1868, bright and early, Conseil joined me on the platform."
+        },
+        {
+          "month": "January",
+          "day": 2,
+          "line": 6469,
+          "context": "And with that, the gallant lad went away. By January 2 we had fared 11,340 miles, hence 5,250 leagues, from our starting point in the seas of Japan. Before the Nautilus’s spur there stretched the dangerous waterways of the Coral Sea, off the northeast"
+        },
+        {
+          "month": "January",
+          "day": 4,
+          "line": 6501,
+          "context": "museum. On January 4, two days after crossing the Coral Sea, we raised the coast of Papua. On this occasion Captain Nemo told me that he intended to reach the Indian Ocean via the Torres Strait. This was the extent"
+        },
+        {
+          "month": "January",
+          "day": 4,
+          "line": 6638,
+          "context": "Nemo replied. “But in the Torres Strait, one still finds a meter-and-a-half difference in level between high and low seas. Today is January 4, and in five days the moon will be full. Now then, I’ll be quite astonished if that good-natured satellite doesn’t sufficiently raise these masses of water and do me a favor for which"
+        },
+        {
+          "month": "January",
+          "day": 5,
+          "line": 6709,
+          "context": "for big ships. The next day, January 5, after its deck paneling was opened, the skiff was wrenched from its socket and launched to sea from the top of the platform. Two men were sufficient for this operation. The oars were"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 0,
+          "min": 19,
+          "hemisphere": null,
+          "line": 6512,
+          "context": "Papua is 400 leagues long by 130 leagues wide, with a surface area of 40,000 geographic leagues. It’s located between latitude 0 degrees 19′ and 10 degrees 2′ south, and between longitude 128 degrees 23′ and 146 degrees 15′. At noon, while the chief officer was taking the sun’s"
+        },
+        {
+          "axis": "longitude",
+          "deg": 128,
+          "min": 23,
+          "hemisphere": null,
+          "line": 6513,
+          "context": "Papua is 400 leagues long by 130 leagues wide, with a surface area of 40,000 geographic leagues. It’s located between latitude 0 degrees 19′ and 10 degrees 2′ south, and between longitude 128 degrees 23′ and 146 degrees 15′. At noon, while the chief officer was taking the sun’s altitude, I spotted the summits of the Arfak Mountains, rising in"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 750,
+          "line": 6410,
+          "context": "DURING THE NIGHT of December 27-28, the Nautilus left the waterways of Vanikoro behind with extraordinary speed. Its heading was southwesterly, and in three days it had cleared the 750 leagues that separated La Pérouse’s islands from the southeastern tip of Papua."
+        },
+        {
+          "value": 5250,
+          "line": 6469,
+          "context": "And with that, the gallant lad went away. By January 2 we had fared 11,340 miles, hence 5,250 leagues, from our starting point in the seas of Japan. Before the Nautilus’s spur there stretched the dangerous waterways of the Coral Sea, off the northeast"
+        },
+        {
+          "value": 400,
+          "line": 6511,
+          "context": "Queensland from the huge island of Papua, also called New Guinea. Papua is 400 leagues long by 130 leagues wide, with a surface area of 40,000 geographic leagues. It’s located between latitude 0 degrees 19′ and 10 degrees 2′ south, and between longitude 128 degrees 23′ and 146"
+        },
+        {
+          "value": 130,
+          "line": 6511,
+          "context": "Queensland from the huge island of Papua, also called New Guinea. Papua is 400 leagues long by 130 leagues wide, with a surface area of 40,000 geographic leagues. It’s located between latitude 0 degrees 19′ and 10 degrees 2′ south, and between longitude 128 degrees 23′ and 146"
+        }
+      ],
+      "lineRange": [
+        6403,
+        6754
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 21,
+      "title": "Some Days Ashore",
+      "ordinal": 21,
+      "dates": [
+        {
+          "month": "January",
+          "day": 6,
+          "line": 7010,
+          "context": "then fell asleep. The next day, January 6: nothing new on board. Not a sound inside, not a sign of life. The skiff stayed alongside in the same place we had left it. We decided to return to Gueboroa Island. Ned Land hoped for"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        6755,
+        7265
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 22,
+      "title": "The Lightning Bolts of Captain Nemo",
+      "ordinal": 22,
+      "dates": [
+        {
+          "month": "January",
+          "day": 8,
+          "line": 7389,
+          "context": "Nautilus’s interior. At six o’clock in the morning, January 8, I climbed onto the platform. The morning shadows were lifting. The island was soon on view through the dissolving mists, first its beaches, then its"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        7266,
+        7783
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 23,
+      "title": "“Aegri Somnia”*",
+      "ordinal": 23,
+      "dates": [
+        {
+          "month": "January",
+          "day": 10,
+          "line": 7791,
+          "context": "*Latin: “troubled dreams.” Ed. THE FOLLOWING DAY, January 10, the Nautilus resumed its travels in midwater but at a remarkable speed that I estimated to be at least thirty-five miles per hour. The propeller was going so fast I could"
+        },
+        {
+          "month": "January",
+          "day": 11,
+          "line": 7802,
+          "context": "went from the submersible itself to the engineer who had created it. We were traveling due west and on January 11 we doubled Cape Wessel, located in longitude 135 degrees and latitude 10 degrees north, the western tip of the Gulf of Carpentaria. Reefs were still numerous but"
+        },
+        {
+          "month": "January",
+          "day": 13,
+          "line": 7810,
+          "context": "on the tenth parallel, which we went along rigorously. On January 13, arriving in the Timor Sea, Captain Nemo raised the island of that name at longitude 122 degrees. This island, whose surface area measures 1,625 square leagues, is governed by"
+        },
+        {
+          "month": "January",
+          "day": 14,
+          "line": 7839,
+          "context": "After cruising along the Cartier, Hibernia, Seringapatam, and Scott reefs, the solid element’s last exertions against the liquid element, we were beyond all sight of shore by January 14. The Nautilus slowed down in an odd manner, and very unpredictable in its ways, it sometimes swam in the midst of the waters, sometimes drifted on their"
+        },
+        {
+          "month": "January",
+          "day": 15,
+          "line": 7876,
+          "context": "enlightenment having nothing to do with science. It happened the morning of January 15. The captain, with whom I was strolling on the platform, asked me if I knew how salt water differs in density from sea to sea. I said no, adding that there was a lack of"
+        },
+        {
+          "month": "January",
+          "day": 16,
+          "line": 7919,
+          "context": "again lived on board in seclusion. On January 16 the Nautilus seemed to have fallen asleep just a few meters beneath the surface of the water. Its electric equipment had been turned off, and the motionless propeller let it ride with the"
+        },
+        {
+          "month": "January",
+          "day": 18,
+          "line": 7988,
+          "context": "circumstances. On January 18 the Nautilus lay in longitude 105 degrees and latitude 15 degrees south. The weather was threatening, the sea rough and billowy. The wind was blowing a strong gust from the east. The"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "longitude",
+          "deg": 135,
+          "min": 0,
+          "hemisphere": null,
+          "line": 7803,
+          "context": "We were traveling due west and on January 11 we doubled Cape Wessel, located in longitude 135 degrees and latitude 10 degrees north, the western tip of the Gulf of Carpentaria. Reefs were still numerous but more widely scattered and were fixed on the chart with the greatest"
+        },
+        {
+          "axis": "latitude",
+          "deg": 10,
+          "min": 0,
+          "hemisphere": "north",
+          "line": 7803,
+          "context": "We were traveling due west and on January 11 we doubled Cape Wessel, located in longitude 135 degrees and latitude 10 degrees north, the western tip of the Gulf of Carpentaria. Reefs were still numerous but more widely scattered and were fixed on the chart with the greatest"
+        },
+        {
+          "axis": "longitude",
+          "deg": 130,
+          "min": 0,
+          "hemisphere": null,
+          "line": 7807,
+          "context": "more widely scattered and were fixed on the chart with the greatest accuracy. The Nautilus easily avoided the Money breakers to port and the Victoria reefs to starboard, positioned at longitude 130 degrees on the tenth parallel, which we went along rigorously."
+        },
+        {
+          "axis": "longitude",
+          "deg": 122,
+          "min": 0,
+          "hemisphere": null,
+          "line": 7811,
+          "context": "On January 13, arriving in the Timor Sea, Captain Nemo raised the island of that name at longitude 122 degrees. This island, whose surface area measures 1,625 square leagues, is governed by rajahs. These aristocrats deem themselves the sons of crocodiles, in"
+        },
+        {
+          "axis": "longitude",
+          "deg": 105,
+          "min": 0,
+          "hemisphere": null,
+          "line": 7988,
+          "context": "circumstances. On January 18 the Nautilus lay in longitude 105 degrees and latitude 15 degrees south. The weather was threatening, the sea rough and billowy. The wind was blowing a strong gust from the east. The"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        7784,
+        8146
+      ]
+    },
+    {
+      "part": 1,
+      "chapter": 24,
+      "title": "The Coral Realm",
+      "ordinal": 24,
+      "dates": [
+        {
+          "month": "January",
+          "day": 19,
+          "line": 8180,
+          "context": "fifteen meters, enabling it to return quickly to the surface of the waves. And, contrary to custom, it executed such a maneuver several times during that day of January 19. The chief officer would then climb onto the platform, and his usual phrase would ring through the ship’s interior."
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        8147,
+        8514
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "title": "The Indian Ocean",
+      "ordinal": 25,
+      "dates": [
+        {
+          "month": "January",
+          "day": 21,
+          "line": 8579,
+          "context": "inquisitive, dreads it. That day, January 21, 1868, the chief officer went at noon to take the sun’s altitude. I climbed onto the platform, lit a cigar, and watched him at work. It seemed obvious to me that this man didn’t understand"
+        },
+        {
+          "month": "January",
+          "day": 21,
+          "line": 8715,
+          "context": "it’s repulsive and horrible. From January 21 to the 23rd, the Nautilus traveled at the rate of 250 leagues in twenty-four hours, hence 540 miles at twenty-two miles per hour. If, during our trip, we were able to identify these different"
+        },
+        {
+          "month": "January",
+          "day": 25,
+          "line": 8768,
+          "context": "shallows than in the open sea. On January 25, the ocean being completely deserted, the Nautilus spent the day on the surface, churning the waves with its powerful propeller and making them spurt to great heights. Under these conditions, who"
+        },
+        {
+          "month": "January",
+          "day": 26,
+          "line": 8836,
+          "context": "breeze, spreading placidly around the Nautilus’s side plates. The next day, January 26, we cut the equator on the 82nd meridian and we reentered the northern hemisphere."
+        },
+        {
+          "month": "January",
+          "day": 27,
+          "line": 8854,
+          "context": "of these man-eaters. On January 27, at the entrance to the huge Bay of Bengal, we repeatedly encountered a gruesome sight: human corpses floating on the surface of the waves! Carried by the Ganges to the high seas, these"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 12,
+          "min": 5,
+          "hemisphere": "south",
+          "line": 8723,
+          "context": "a few managed to keep pace in the Nautilus’s waters. On the morning of the 24th, in latitude 12 degrees 5′ south and longitude 94 degrees 33′, we raised Keeling Island, a madreporic upheaving planted with magnificent coconut trees, which had been"
+        },
+        {
+          "axis": "longitude",
+          "deg": 94,
+          "min": 33,
+          "hemisphere": null,
+          "line": 8724,
+          "context": "On the morning of the 24th, in latitude 12 degrees 5′ south and longitude 94 degrees 33′, we raised Keeling Island, a madreporic upheaving planted with magnificent coconut trees, which had been visited by Mr. Darwin and Captain Fitzroy. The Nautilus cruised along"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 6000,
+          "line": 8569,
+          "context": "for this insatiable curiosity with my life! What are my discoveries to date? Nothing, relatively speaking—since so far we’ve covered only 6,000 leagues across the Pacific! Nevertheless, I’m well aware that the Nautilus is drawing near to"
+        }
+      ],
+      "lineRange": [
+        8515,
+        8906
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "title": "A New Proposition from Captain Nemo",
+      "ordinal": 26,
+      "dates": [],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 9,
+          "min": 4,
+          "hemisphere": "north",
+          "line": 8912,
+          "context": "ON JANUARY 28, in latitude 9 degrees 4′ north, when the Nautilus returned at noon to the surface of the sea, it lay in sight of land some eight miles to the west. Right off, I observed a cluster of"
+        },
+        {
+          "axis": "latitude",
+          "deg": 5,
+          "min": 55,
+          "hemisphere": null,
+          "line": 8925,
+          "context": "Ceylon and the Singhalese by H. C. Sirr, Esq. Reentering the lounge, I first noted the bearings of Ceylon, on which antiquity lavished so many different names. It was located between latitude 5 degrees 55′ and 9 degrees 49′ north, and between longitude 79 degrees 42′ and 82 degrees 4′ east of the meridian of Greenwich; its length is 275 miles;"
+        },
+        {
+          "axis": "longitude",
+          "deg": 79,
+          "min": 42,
+          "hemisphere": null,
+          "line": 8926,
+          "context": "first noted the bearings of Ceylon, on which antiquity lavished so many different names. It was located between latitude 5 degrees 55′ and 9 degrees 49′ north, and between longitude 79 degrees 42′ and 82 degrees 4′ east of the meridian of Greenwich; its length is 275 miles; its maximum width, 150 miles; its circumference, 900 miles; its"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        8907,
+        9359
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "title": "A Pearl Worth Ten Million",
+      "ordinal": 27,
+      "dates": [],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        9360,
+        9834
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "title": "The Red Sea",
+      "ordinal": 28,
+      "dates": [
+        {
+          "month": "January",
+          "day": 29,
+          "line": 9840,
+          "context": "DURING THE DAY of January 29, the island of Ceylon disappeared below the horizon, and at a speed of twenty miles per hour, the Nautilus glided into the labyrinthine channels that separate the Maldive and"
+        },
+        {
+          "month": "January",
+          "day": 30,
+          "line": 9852,
+          "context": "point in the seas of Japan. The next day, January 30, when the Nautilus rose to the surface of the ocean, there was no more land in sight. Setting its course to the north-northwest, the ship headed toward the Gulf of Oman, carved out"
+        },
+        {
+          "month": "February",
+          "day": 3,
+          "line": 9919,
+          "context": "is a life without joy.” For four days until February 3, the Nautilus inspected the Gulf of Oman at various speeds and depths. It seemed to be traveling at random, as if hesitating over which course to follow, but it never"
+        },
+        {
+          "month": "February",
+          "day": 5,
+          "line": 9934,
+          "context": "Then our ship went along at a distance of six miles from the Arabic coasts of Mahra and Hadhramaut, their undulating lines of mountains relieved by a few ancient ruins. On February 5 we finally put into the Gulf of Aden, a genuine funnel stuck into the neck of Bab el Mandeb and bottling these Indian waters in the Red Sea."
+        },
+        {
+          "month": "February",
+          "day": 6,
+          "line": 9938,
+          "context": "and bottling these Indian waters in the Red Sea. On February 6 the Nautilus cruised in sight of the city of Aden, perched on a promontory connected to the continent by a narrow isthmus, a sort of inaccessible Gibraltar whose fortifications the"
+        },
+        {
+          "month": "February",
+          "day": 7,
+          "line": 9950,
+          "context": "nothing of the sort. The next day, February 7, we entered the Strait of Bab el Mandeb, whose name means “Gate of Tears” in the Arabic language. Twenty miles wide, it’s only fifty-two kilometers long, and with the Nautilus"
+        },
+        {
+          "month": "February",
+          "day": 8,
+          "line": 9985,
+          "context": "observe both the inside and topside of this highly unusual sea. On February 8, as early as the first hours of daylight, Mocha appeared before us: a town now in ruins, whose walls would collapse at the mere sound of a cannon, and which shelters a few leafy date trees here and"
+        },
+        {
+          "month": "February",
+          "day": 9,
+          "line": 10091,
+          "context": "already crossed. On February 9 the Nautilus cruised in the widest part of the Red Sea, measuring 190 miles straight across from Suakin on the west coast to Qunfidha on the east coast."
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 10,
+          "min": 0,
+          "hemisphere": null,
+          "line": 9846,
+          "context": "madreporic origin discovered by Vasco da Gama in 1499 and one of nineteen chief islands in the island group of the Laccadives, located between latitude 10 degrees and 14 degrees 30′ north, and between longitude 50 degrees 72′ and 69 degrees east."
+        },
+        {
+          "axis": "longitude",
+          "deg": 50,
+          "min": 72,
+          "hemisphere": null,
+          "line": 9847,
+          "context": "nineteen chief islands in the island group of the Laccadives, located between latitude 10 degrees and 14 degrees 30′ north, and between longitude 50 degrees 72′ and 69 degrees east. By then we had fared 16,220 miles, or 7,500 leagues, from our starting"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 7500,
+          "line": 9849,
+          "context": "longitude 50 degrees 72′ and 69 degrees east. By then we had fared 16,220 miles, or 7,500 leagues, from our starting point in the seas of Japan."
+        }
+      ],
+      "lineRange": [
+        9835,
+        10361
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "title": "Arabian Tunnel",
+      "ordinal": 29,
+      "dates": [
+        {
+          "month": "February",
+          "day": 10,
+          "line": 10399,
+          "context": "back beneath the mildly phosphorescent waters. The next day, February 10, several ships appeared, running on our opposite tack. The Nautilus resumed its underwater navigating; but at the moment of our noon sights, the sea was deserted and the ship rose"
+        },
+        {
+          "month": "February",
+          "day": 11,
+          "line": 10634,
+          "context": "excellent, even better than veal if not beef. The next morning, February 11, the Nautilus’s pantry was enriched by more dainty game. A covey of terns alighted on the Nautilus. They were a species of Sterna nilotica unique to Egypt: beak black, head gray"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 21,
+          "min": 30,
+          "hemisphere": "north",
+          "line": 10385,
+          "context": "Mediterranean.” The same evening, at latitude 21 degrees 30′ north, the Nautilus was afloat on the surface of the sea and drawing nearer to the Arab coast. I spotted Jidda, an important financial center for Egypt,"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        10362,
+        10758
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "title": "The Greek Islands",
+      "ordinal": 30,
+      "dates": [
+        {
+          "month": "February",
+          "day": 12,
+          "line": 10764,
+          "context": "AT SUNRISE the next morning, February 12, the Nautilus rose to the surface of the waves."
+        },
+        {
+          "month": "February",
+          "day": 14,
+          "line": 11009,
+          "context": "window I could see only its granite bedrock. The next day, February 14, I decided to spend a few hours studying the fish of this island group; but for whatever reason, the panels remained hermetically sealed. After determining the Nautilus’s"
+        },
+        {
+          "month": "February",
+          "day": 3,
+          "line": 11206,
+          "context": "under the waves, only to rise and sink once more in the year 69 A.D. From that day to this, such plutonic construction work has been in abeyance. But on February 3, 1866, a new islet named George Island emerged in the midst of sulfurous steam near Nea Kameni and was fused to it on the 6th of the same month. Seven days later, on February 13,"
+        },
+        {
+          "month": "February",
+          "day": 13,
+          "line": 11208,
+          "context": "in abeyance. But on February 3, 1866, a new islet named George Island emerged in the midst of sulfurous steam near Nea Kameni and was fused to it on the 6th of the same month. Seven days later, on February 13, the islet of Aphroessa appeared, leaving a ten-meter channel between itself and Nea Kameni. I was in these seas when that phenomenon"
+        },
+        {
+          "month": "March",
+          "day": 10,
+          "line": 11214,
+          "context": "Aphroessa was circular in shape, measuring 300 feet in diameter and thirty feet in height. It was made of black, glassy lava mixed with bits of feldspar. Finally, on March 10, a smaller islet called Reka appeared next to Nea Kameni, and since then, these three islets have fused to form one single, selfsame island.”"
+        },
+        {
+          "month": "February",
+          "day": 16,
+          "line": 11254,
+          "context": "escape attempt, we wouldn’t have come out alive from this sea of fire. The next day, February 16, we left this basin, which tallies depths of 3,000 meters between Rhodes and Alexandria, and passing well out from Cerigo Island after doubling Cape Matapan, the Nautilus left the Greek"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        10759,
+        11259
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "title": "The Mediterranean in Forty-Eight Hours",
+      "ordinal": 31,
+      "dates": [
+        {
+          "month": "February",
+          "day": 16,
+          "line": 11284,
+          "context": "some 600 leagues under the waves of this sea, and this voyage was accomplished in just twenty-four hours times two. Departing from the waterways of Greece on the morning of February 16, we cleared the Strait of Gibraltar by sunrise on the 18th."
+        },
+        {
+          "month": "February",
+          "day": 16,
+          "line": 11565,
+          "context": "fish sweeping by like shadows. During the night of February 16-17, we entered the second Mediterranean basin, whose maximum depth we found at 3,000 meters. The Nautilus, driven downward by its propeller and slanting fins,"
+        },
+        {
+          "month": "February",
+          "day": 18,
+          "line": 11619,
+          "context": "Meanwhile, briskly unconcerned, the Nautilus ran at full propeller through the midst of these ruins. On February 18, near three o’clock in the morning, it hove before the entrance to the Strait of Gibraltar."
+        }
+      ],
+      "coords": [],
+      "leagues": [
+        {
+          "value": 600,
+          "line": 11282,
+          "context": "mystifying individual didn’t appear one single time during our high-speed crossing. I estimate that the Nautilus covered a track of some 600 leagues under the waves of this sea, and this voyage was accomplished in just twenty-four hours times two. Departing from the waterways of Greece on the morning of February 16, we cleared the"
+        }
+      ],
+      "lineRange": [
+        11260,
+        11642
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "title": "The Bay of Vigo",
+      "ordinal": 32,
+      "dates": [
+        {
+          "month": "October",
+          "day": 22,
+          "line": 11980,
+          "context": "“Now then, just as this decision was being handed down, English vessels arrived in the Bay of Vigo on October 22, 1702. Despite his inferior forces, Admiral de Chateau-Renault fought courageously. But when he saw that the convoy’s wealth was about to fall into enemy"
+        },
+        {
+          "month": "October",
+          "day": 22,
+          "line": 12009,
+          "context": "this inexhaustible fishing for silver and gold. I understood. This was the setting of that battle on October 22, 1702. Here, in this very place, those galleons carrying treasure to the Spanish government had gone to the bottom. Here, whenever he"
+        }
+      ],
+      "coords": [],
+      "leagues": [
+        {
+          "value": 10000,
+          "line": 11663,
+          "context": "The Nautilus broke these waters with the edge of its spur after doing nearly 10,000 leagues in three and a half months, a track longer than a great circle of the earth. Where were we heading now, and what did the future have in store for us?"
+        },
+        {
+          "value": 100,
+          "line": 11735,
+          "context": "is worth paying for. Besides, the longboat’s solidly built, and a few miles with the wind behind us is no big deal. By tomorrow, who knows if this ship won’t be 100 leagues out to sea? If circumstances are in our favor, between ten and eleven this evening we’ll be landing on some piece of solid ground, or we’ll be dead. So we’re in God’s hands,"
+        }
+      ],
+      "lineRange": [
+        11643,
+        12071
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 9,
+      "title": "A Lost Continent",
+      "ordinal": 33,
+      "dates": [
+        {
+          "month": "February",
+          "day": 19,
+          "line": 12077,
+          "context": "THE NEXT MORNING, February 19, I beheld the Canadian entering my stateroom. I was expecting this visit. He wore an expression of great disappointment."
+        }
+      ],
+      "coords": [
+        {
+          "axis": "longitude",
+          "deg": 16,
+          "min": 17,
+          "hemisphere": null,
+          "line": 12133,
+          "context": "When I consulted the chart an hour later, I saw that the Nautilus’s position was marked at longitude 16 degrees 17′ and latitude 33 degrees 22′, a good 150 leagues from the nearest coast. It wouldn’t do to even dream of escaping, and I’ll let the reader decide how promptly"
+        },
+        {
+          "axis": "latitude",
+          "deg": 12,
+          "min": 0,
+          "hemisphere": null,
+          "line": 12419,
+          "context": "invaded and partly destroyed by the Atlanteans. These Atlanteans, he said, resided on an immense continent greater than Africa and Asia combined, taking in an area that lay between latitude 12 degrees and 40 degrees north. Their dominion extended even to Egypt. They tried to enforce their rule as far as Greece, but they had to retreat before"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 150,
+          "line": 12134,
+          "context": "When I consulted the chart an hour later, I saw that the Nautilus’s position was marked at longitude 16 degrees 17′ and latitude 33 degrees 22′, a good 150 leagues from the nearest coast. It wouldn’t do to even dream of escaping, and I’ll let the reader decide how promptly the Canadian threw a tantrum when I ventured to tell him our"
+        }
+      ],
+      "lineRange": [
+        12072,
+        12482
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "title": "The Underwater Coalfields",
+      "ordinal": 34,
+      "dates": [
+        {
+          "month": "February",
+          "day": 20,
+          "line": 12488,
+          "context": "THE NEXT DAY, February 20, I overslept. I was so exhausted from the night before, I didn’t get up until eleven o’clock. I dressed quickly. I hurried to find out the Nautilus’s heading. The instruments"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        12483,
+        12924
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 11,
+      "title": "The Sargasso Sea",
+      "ordinal": 35,
+      "dates": [
+        {
+          "month": "February",
+          "day": 22,
+          "line": 13005,
+          "context": "with violet festoons. We spent the whole day of February 22 in the Sargasso Sea, where fish that dote on marine plants and crustaceans find plenty to eat. The next day the ocean resumed its usual appearance."
+        },
+        {
+          "month": "February",
+          "day": 23,
+          "line": 13009,
+          "context": "next day the ocean resumed its usual appearance. From this moment on, for nineteen days from February 23 to March 12, the Nautilus stayed in the middle of the Atlantic, hustling us along at a constant speed of 100 leagues every twenty-four hours. It was"
+        },
+        {
+          "month": "March",
+          "day": 12,
+          "line": 13009,
+          "context": "next day the ocean resumed its usual appearance. From this moment on, for nineteen days from February 23 to March 12, the Nautilus stayed in the middle of the Atlantic, hustling us along at a constant speed of 100 leagues every twenty-four hours. It was"
+        },
+        {
+          "month": "March",
+          "day": 13,
+          "line": 13111,
+          "context": "shooting stars. Our navigating continued under these conditions until March 13. That day the Nautilus was put to work in some depth-sounding experiments that fascinated me deeply."
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 44,
+          "min": 0,
+          "hemisphere": "north",
+          "line": 12939,
+          "context": "by name as the Gulf Stream. After emerging from channels off Florida, it heads toward Spitzbergen. But before entering the Gulf of Mexico near latitude 44 degrees north, this current divides into two arms; its chief arm makes for the shores of Ireland and Norway while the second flexes southward at the level of the Azores; then it hits the"
+        },
+        {
+          "axis": "longitude",
+          "deg": 37,
+          "min": 53,
+          "hemisphere": "west",
+          "line": 13117,
+          "context": "By then we had fared nearly 13,000 leagues from our starting point in the Pacific high seas. Our position fix placed us in latitude 45 degrees 37′ south and longitude 37 degrees 53′ west. These were the same waterways where Captain Denham, aboard the Herald, payed out 14,000 meters of sounding line without finding bottom. It was here too"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 100,
+          "line": 13011,
+          "context": "From this moment on, for nineteen days from February 23 to March 12, the Nautilus stayed in the middle of the Atlantic, hustling us along at a constant speed of 100 leagues every twenty-four hours. It was obvious that Captain Nemo wanted to carry out his underwater program, and I had no doubt that he intended, after doubling Cape Horn, to"
+        },
+        {
+          "value": 13000,
+          "line": 13115,
+          "context": "that fascinated me deeply. By then we had fared nearly 13,000 leagues from our starting point in the Pacific high seas. Our position fix placed us in latitude 45 degrees 37′ south and longitude 37 degrees 53′ west. These were the"
+        }
+      ],
+      "lineRange": [
+        12925,
+        13283
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 12,
+      "title": "Sperm Whales and Baleen Whales",
+      "ordinal": 36,
+      "dates": [
+        {
+          "month": "March",
+          "day": 13,
+          "line": 13289,
+          "context": "DURING THE NIGHT of March 13-14, the Nautilus resumed its southward heading. Once it was abreast of Cape Horn, I thought it would strike west of the cape, make for Pacific seas, and complete its tour of the"
+        },
+        {
+          "month": "March",
+          "day": 14,
+          "line": 13304,
+          "context": "that his natural vehemence would cause him to do something rash. That day, March 14, he and Conseil managed to find me in my stateroom. I asked them the purpose of their visit."
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        13284,
+        13790
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 13,
+      "title": "The Ice Bank",
+      "ordinal": 37,
+      "dates": [
+        {
+          "month": "March",
+          "day": 13,
+          "line": 13800,
+          "context": "didn’t think so, because every previous attempt to reach this spot on the globe had failed. Besides, the season was already quite advanced, since March 13 on Antarctic shores corresponds with September 13 in the northernmost regions, which marks the beginning of the equinoctial period."
+        },
+        {
+          "month": "September",
+          "day": 13,
+          "line": 13800,
+          "context": "didn’t think so, because every previous attempt to reach this spot on the globe had failed. Besides, the season was already quite advanced, since March 13 on Antarctic shores corresponds with September 13 in the northernmost regions, which marks the beginning of the equinoctial period."
+        },
+        {
+          "month": "March",
+          "day": 14,
+          "line": 13804,
+          "context": "period. On March 14 at latitude 55 degrees, I spotted floating ice, plain pale bits of rubble twenty to twenty-five feet long, which formed reefs over which the sea burst into foam. The Nautilus stayed on the surface"
+        },
+        {
+          "month": "March",
+          "day": 15,
+          "line": 13865,
+          "context": "would cast six months of shadow over these circumpolar regions. On March 15 we passed beyond the latitude of the South Shetland and South Orkney Islands. The captain told me that many tribes of seals used to inhabit these shores; but English and American whalers, in a"
+        },
+        {
+          "month": "March",
+          "day": 16,
+          "line": 13873,
+          "context": "Going along the 55th meridian, the Nautilus cut the Antarctic Circle on March 16 near eight o’clock in the morning. Ice completely surrounded us and closed off the horizon. Nevertheless, Captain Nemo went from passageway to passageway, always proceeding south."
+        },
+        {
+          "month": "March",
+          "day": 16,
+          "line": 13908,
+          "context": "Nautilus in the midst of the Antarctic seas. However, during the day of March 16, these tracts of ice completely barred our path. It wasn’t the Ice Bank as yet, just huge ice fields cemented together by the cold. This obstacle couldn’t stop Captain"
+        },
+        {
+          "month": "March",
+          "day": 18,
+          "line": 13947,
+          "context": "whose landmarks change continuously. At last on March 18, after twenty futile assaults, the Nautilus was decisively held in check. No longer was it an ice stream, patch, or field—it was an endless, immovable barrier formed by ice mountains"
+        },
+        {
+          "month": "March",
+          "day": 19,
+          "line": 14230,
+          "context": "pilothouse. The next day, March 19, at five o’clock in the morning, I was back at my post in the lounge. The electric log indicated that the Nautilus had reduced speed. By then it was rising to the surface, but"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 55,
+          "min": 0,
+          "hemisphere": null,
+          "line": 13804,
+          "context": "period. On March 14 at latitude 55 degrees, I spotted floating ice, plain pale bits of rubble twenty to twenty-five feet long, which formed reefs over which the sea burst into foam. The Nautilus stayed on the surface"
+        },
+        {
+          "axis": "latitude",
+          "deg": 60,
+          "min": 0,
+          "hemisphere": null,
+          "line": 13841,
+          "context": "ice, some of which measured several miles in length, their heights varying from seventy to eighty meters. Often the horizon seemed completely closed off. Abreast of latitude 60 degrees, every passageway had disappeared. Searching with care, Captain Nemo soon found a narrow opening into which he brazenly slipped, well aware,"
+        },
+        {
+          "axis": "latitude",
+          "deg": 70,
+          "min": 0,
+          "hemisphere": null,
+          "line": 13939,
+          "context": "coincide with the South Pole proper. In fact, according to the astronomer Hansteen, this magnetic pole is located fairly close to latitude 70 degrees and longitude 130 degrees, or abiding by the observations of Louis-Isidore Duperrey, in longitude 135 degrees and latitude 70 degrees 30′. Hence we had to transport compasses to"
+        },
+        {
+          "axis": "longitude",
+          "deg": 130,
+          "min": 0,
+          "hemisphere": null,
+          "line": 13939,
+          "context": "coincide with the South Pole proper. In fact, according to the astronomer Hansteen, this magnetic pole is located fairly close to latitude 70 degrees and longitude 130 degrees, or abiding by the observations of Louis-Isidore Duperrey, in longitude 135 degrees and latitude 70 degrees 30′. Hence we had to transport compasses to"
+        },
+        {
+          "axis": "longitude",
+          "deg": 135,
+          "min": 0,
+          "hemisphere": null,
+          "line": 13940,
+          "context": "astronomer Hansteen, this magnetic pole is located fairly close to latitude 70 degrees and longitude 130 degrees, or abiding by the observations of Louis-Isidore Duperrey, in longitude 135 degrees and latitude 70 degrees 30′. Hence we had to transport compasses to different parts of the ship, take many readings, and strike an"
+        },
+        {
+          "axis": "latitude",
+          "deg": 70,
+          "min": 30,
+          "hemisphere": null,
+          "line": 13941,
+          "context": "latitude 70 degrees and longitude 130 degrees, or abiding by the observations of Louis-Isidore Duperrey, in longitude 135 degrees and latitude 70 degrees 30′. Hence we had to transport compasses to different parts of the ship, take many readings, and strike an average. Often we could chart our course only by guesswork, a less"
+        },
+        {
+          "axis": "longitude",
+          "deg": 51,
+          "min": 30,
+          "hemisphere": null,
+          "line": 13957,
+          "context": "this was the great insurmountable obstacle. When the sun appeared for an instant near noon, Captain Nemo took a reasonably accurate sight that gave our position as longitude 51 degrees 30′ and latitude 67 degrees 39′ south. This was a position already well along in these Antarctic regions."
+        }
+      ],
+      "leagues": [
+        {
+          "value": 500,
+          "line": 14213,
+          "context": "without veering from the 52nd meridian. From 67 degrees 30′ to 90 degrees, twenty-two and a half degrees of latitude were left to cross, in other words, slightly more than 500 leagues. The Nautilus adopted an average speed of twenty-six miles per hour, the speed of an express train. If it kept up this pace, forty hours would do it for reaching"
+        }
+      ],
+      "lineRange": [
+        13791,
+        14284
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 14,
+      "title": "The South Pole",
+      "ordinal": 38,
+      "dates": [
+        {
+          "month": "March",
+          "day": 20,
+          "line": 14463,
+          "context": "skimmed the edge of the horizon. The next day, March 20, it stopped snowing. The cold was a little more brisk. The thermometer marked -2 degrees centigrade. The mist had cleared, and on that day I hoped our noon sights could be"
+        },
+        {
+          "month": "March",
+          "day": 20,
+          "line": 14632,
+          "context": "hope of fixing our position. In essence, it was precisely March 20. Tomorrow, the 21st, was the day of the equinox; the sun would disappear below the horizon for six months not counting refraction, and after its disappearance the long"
+        },
+        {
+          "month": "December",
+          "day": 21,
+          "line": 14637,
+          "context": "polar night would begin. Following the September equinox, the sun had emerged above the northerly horizon, rising in long spirals until December 21. At that time, the summer solstice of these southernmost districts, the sun had started back down, and tomorrow it would cast its last rays."
+        },
+        {
+          "month": "March",
+          "day": 21,
+          "line": 14646,
+          "context": "sun’s altitude tomorrow, I won’t be able to try again for another six months. But precisely because sailors’ luck has led me into these seas on March 21, it will be easy to get our bearings if the noonday sun does appear before our eyes.”"
+        },
+        {
+          "month": "March",
+          "day": 21,
+          "line": 14658,
+          "context": "“I use only my chronometer,” Captain Nemo answered me. “At noon tomorrow, March 21, if, after accounting for refraction, the sun’s disk is cut exactly in half by the northern horizon, that will mean I’m at the South Pole.”"
+        },
+        {
+          "month": "March",
+          "day": 21,
+          "line": 14684,
+          "context": "orb. The next day, March 21, bright and early at five o’clock in the morning, I climbed onto the platform. I found Captain Nemo there."
+        },
+        {
+          "month": "January",
+          "day": 17,
+          "line": 14771,
+          "context": "“In 1600, sir, the Dutchman Gheritk was swept by storms and currents, reaching latitude 64 degrees south and discovering the South Shetland Islands. On January 17, 1773, the famous Captain Cook went along the 38th meridian, arriving at latitude 67 degrees 30′; and on January 30, 1774, along the 109th meridian, he reached latitude 71 degrees 15′. In"
+        },
+        {
+          "month": "January",
+          "day": 30,
+          "line": 14772,
+          "context": "reaching latitude 64 degrees south and discovering the South Shetland Islands. On January 17, 1773, the famous Captain Cook went along the 38th meridian, arriving at latitude 67 degrees 30′; and on January 30, 1774, along the 109th meridian, he reached latitude 71 degrees 15′. In 1819 the Russian Bellinghausen lay on the 69th parallel, and in 1821"
+        },
+        {
+          "month": "February",
+          "day": 1,
+          "line": 14784,
+          "context": "1829 the Englishman Forster, commander of the Chanticleer, laid claim to the Antarctic continent in latitude 63 degrees 26′ and longitude 66 degrees 26′. On February 1, 1831, the Englishman Biscoe discovered Enderby Land at latitude 68 degrees 50′, Adelaide Land at latitude 67 degrees on February 5, 1832, and Graham Land at latitude 64 degrees"
+        },
+        {
+          "month": "February",
+          "day": 5,
+          "line": 14786,
+          "context": "degrees 26′. On February 1, 1831, the Englishman Biscoe discovered Enderby Land at latitude 68 degrees 50′, Adelaide Land at latitude 67 degrees on February 5, 1832, and Graham Land at latitude 64 degrees 45′ on February 21. In 1838 the Frenchman Dumont d’Urville stopped at the Ice Bank in latitude 62 degrees 57′, sighting the Louis-Philippe"
+        },
+        {
+          "month": "February",
+          "day": 21,
+          "line": 14787,
+          "context": "Enderby Land at latitude 68 degrees 50′, Adelaide Land at latitude 67 degrees on February 5, 1832, and Graham Land at latitude 64 degrees 45′ on February 21. In 1838 the Frenchman Dumont d’Urville stopped at the Ice Bank in latitude 62 degrees 57′, sighting the Louis-Philippe Peninsula; on January 21 two years later, at a new southerly position"
+        },
+        {
+          "month": "January",
+          "day": 21,
+          "line": 14789,
+          "context": "45′ on February 21. In 1838 the Frenchman Dumont d’Urville stopped at the Ice Bank in latitude 62 degrees 57′, sighting the Louis-Philippe Peninsula; on January 21 two years later, at a new southerly position of 66 degrees 30′, he named the Adélie Coast and eight days later, the Clarie Coast at 64 degrees 40′. In 1838 the American Wilkes advanced"
+        },
+        {
+          "month": "January",
+          "day": 12,
+          "line": 14794,
+          "context": "as far as the 69th parallel on the 100th meridian. In 1839 the Englishman Balleny discovered the Sabrina Coast at the edge of the polar circle. Lastly, on January 12, 1842, with his ships, the Erebus and the Terror, the Englishman Sir James Clark Ross found Victoria Land in latitude 70 degrees 56′ and longitude 171 degrees 7′ east; on"
+        },
+        {
+          "month": "February",
+          "day": 2,
+          "line": 14799,
+          "context": "the 23rd of that same month, he reached the 74th parallel, a position denoting the Farthest South attained until then; on the 27th he lay at 76 degrees 8′; on the 28th at 77 degrees 32′; on February 2 at 78 degrees 4′; and late in 1842 he returned to 71 degrees but couldn’t get beyond it. Well now! In 1868, on this 21st day of March, I myself,"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 77,
+          "min": 32,
+          "hemisphere": null,
+          "line": 14363,
+          "context": "miles. In these Antarctic districts, as is well known, Sir James Clark Ross had found the craters of Mt. Erebus and Mt. Terror in fully active condition on the 167th meridian at latitude 77 degrees 32′. The vegetation on this desolate continent struck me as quite"
+        },
+        {
+          "axis": "latitude",
+          "deg": 64,
+          "min": 0,
+          "hemisphere": "south",
+          "line": 14770,
+          "context": "“In 1600, sir, the Dutchman Gheritk was swept by storms and currents, reaching latitude 64 degrees south and discovering the South Shetland Islands. On January 17, 1773, the famous Captain Cook went along the 38th meridian, arriving at latitude 67 degrees 30′; and on January 30,"
+        },
+        {
+          "axis": "latitude",
+          "deg": 67,
+          "min": 30,
+          "hemisphere": null,
+          "line": 14772,
+          "context": "reaching latitude 64 degrees south and discovering the South Shetland Islands. On January 17, 1773, the famous Captain Cook went along the 38th meridian, arriving at latitude 67 degrees 30′; and on January 30, 1774, along the 109th meridian, he reached latitude 71 degrees 15′. In 1819 the Russian Bellinghausen lay on the 69th parallel, and in 1821"
+        },
+        {
+          "axis": "latitude",
+          "deg": 71,
+          "min": 15,
+          "hemisphere": null,
+          "line": 14773,
+          "context": "Islands. On January 17, 1773, the famous Captain Cook went along the 38th meridian, arriving at latitude 67 degrees 30′; and on January 30, 1774, along the 109th meridian, he reached latitude 71 degrees 15′. In 1819 the Russian Bellinghausen lay on the 69th parallel, and in 1821 on the 66th at longitude 111 degrees west. In 1820 the Englishman"
+        },
+        {
+          "axis": "longitude",
+          "deg": 111,
+          "min": 0,
+          "hemisphere": "west",
+          "line": 14775,
+          "context": "1774, along the 109th meridian, he reached latitude 71 degrees 15′. In 1819 the Russian Bellinghausen lay on the 69th parallel, and in 1821 on the 66th at longitude 111 degrees west. In 1820 the Englishman Bransfield stopped at 65 degrees. That same year the American Morrel, whose reports are dubious, went along the 42nd meridian, finding open"
+        },
+        {
+          "axis": "latitude",
+          "deg": 70,
+          "min": 14,
+          "hemisphere": null,
+          "line": 14778,
+          "context": "Bransfield stopped at 65 degrees. That same year the American Morrel, whose reports are dubious, went along the 42nd meridian, finding open sea at latitude 70 degrees 14′. In 1825 the Englishman Powell was unable to get beyond 62 degrees. That same year a humble seal fisherman, the Englishman Weddell, went as far as latitude 72 degrees"
+        },
+        {
+          "axis": "latitude",
+          "deg": 72,
+          "min": 0,
+          "hemisphere": null,
+          "line": 14780,
+          "context": "sea at latitude 70 degrees 14′. In 1825 the Englishman Powell was unable to get beyond 62 degrees. That same year a humble seal fisherman, the Englishman Weddell, went as far as latitude 72 degrees 14′ on the 35th meridian, and as far as 74 degrees 15′ on the 36th. In 1829 the Englishman Forster, commander of the Chanticleer, laid claim"
+        },
+        {
+          "axis": "latitude",
+          "deg": 63,
+          "min": 26,
+          "hemisphere": null,
+          "line": 14783,
+          "context": "14′ on the 35th meridian, and as far as 74 degrees 15′ on the 36th. In 1829 the Englishman Forster, commander of the Chanticleer, laid claim to the Antarctic continent in latitude 63 degrees 26′ and longitude 66 degrees 26′. On February 1, 1831, the Englishman Biscoe discovered Enderby Land at latitude 68 degrees 50′, Adelaide Land at latitude 67"
+        },
+        {
+          "axis": "latitude",
+          "deg": 68,
+          "min": 50,
+          "hemisphere": null,
+          "line": 14785,
+          "context": "to the Antarctic continent in latitude 63 degrees 26′ and longitude 66 degrees 26′. On February 1, 1831, the Englishman Biscoe discovered Enderby Land at latitude 68 degrees 50′, Adelaide Land at latitude 67 degrees on February 5, 1832, and Graham Land at latitude 64 degrees 45′ on February 21. In 1838 the Frenchman Dumont d’Urville stopped at"
+        },
+        {
+          "axis": "latitude",
+          "deg": 64,
+          "min": 0,
+          "hemisphere": null,
+          "line": 14786,
+          "context": "degrees 26′. On February 1, 1831, the Englishman Biscoe discovered Enderby Land at latitude 68 degrees 50′, Adelaide Land at latitude 67 degrees on February 5, 1832, and Graham Land at latitude 64 degrees 45′ on February 21. In 1838 the Frenchman Dumont d’Urville stopped at the Ice Bank in latitude 62 degrees 57′, sighting the Louis-Philippe"
+        },
+        {
+          "axis": "latitude",
+          "deg": 62,
+          "min": 57,
+          "hemisphere": null,
+          "line": 14788,
+          "context": "degrees on February 5, 1832, and Graham Land at latitude 64 degrees 45′ on February 21. In 1838 the Frenchman Dumont d’Urville stopped at the Ice Bank in latitude 62 degrees 57′, sighting the Louis-Philippe Peninsula; on January 21 two years later, at a new southerly position of 66 degrees 30′, he named the Adélie Coast and eight days later, the"
+        },
+        {
+          "axis": "latitude",
+          "deg": 70,
+          "min": 56,
+          "hemisphere": null,
+          "line": 14796,
+          "context": "polar circle. Lastly, on January 12, 1842, with his ships, the Erebus and the Terror, the Englishman Sir James Clark Ross found Victoria Land in latitude 70 degrees 56′ and longitude 171 degrees 7′ east; on the 23rd of that same month, he reached the 74th parallel, a position denoting the Farthest South attained until then; on the 27th he lay at"
+        },
+        {
+          "axis": "longitude",
+          "deg": 171,
+          "min": 7,
+          "hemisphere": "east",
+          "line": 14796,
+          "context": "polar circle. Lastly, on January 12, 1842, with his ships, the Erebus and the Terror, the Englishman Sir James Clark Ross found Victoria Land in latitude 70 degrees 56′ and longitude 171 degrees 7′ east; on the 23rd of that same month, he reached the 74th parallel, a position denoting the Farthest South attained until then; on the 27th he lay at"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        14285,
+        14818
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 15,
+      "title": "Accident or Incident?",
+      "ordinal": 39,
+      "dates": [
+        {
+          "month": "March",
+          "day": 22,
+          "line": 14824,
+          "context": "THE NEXT DAY, March 22, at six o’clock in the morning, preparations for departure began. The last gleams of twilight were melting into night. The cold was brisk. The constellations were glittering with"
+        }
+      ],
+      "coords": [],
+      "leagues": [
+        {
+          "value": 14000,
+          "line": 14861,
+          "context": "inexhaustible is this series of underwater wonders! As it was, in the five and a half months since fate had brought us on board, we had cleared 14,000 leagues, and over this track longer than the earth’s equator, so many fascinating or frightening incidents had beguiled our voyage: that hunting trip in the Crespo forests, our running aground"
+        }
+      ],
+      "lineRange": [
+        14819,
+        15176
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 16,
+      "title": "Shortage of Air",
+      "ordinal": 40,
+      "dates": [
+        {
+          "month": "March",
+          "day": 26,
+          "line": 15365,
+          "context": "following morning. The next day, March 26, I returned to my miner’s trade, working to remove the fifth meter. The Ice Bank’s side walls and underbelly had visibly thickened. Obviously they would come together before the"
+        },
+        {
+          "month": "March",
+          "day": 22,
+          "line": 15416,
+          "context": "I broke out in a cold sweat. But why should I have been startled by this reply? On March 22 the Nautilus had dived under the open waters at the pole. It was now the 26th. We had lived off the ship’s stores for five days! And all remaining breathable air had to be saved for"
+        },
+        {
+          "month": "March",
+          "day": 27,
+          "line": 15466,
+          "context": "assured that there was no danger of it solidifying. By the next day, March 27, six meters of ice had been torn from the socket. Only four meters were left to be removed. That still meant forty-eight hours of work. The air couldn’t be renewed in the"
+        },
+        {
+          "month": "March",
+          "day": 28,
+          "line": 15576,
+          "context": "My eyes flew toward the clock. It was eleven in the morning. It had to be March 28. The Nautilus was traveling at the frightful speed of forty miles per hour. It was writhing in the waters."
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        15177,
+        15599
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 17,
+      "title": "From Cape Horn to the Amazon",
+      "ordinal": 41,
+      "dates": [
+        {
+          "month": "March",
+          "day": 31,
+          "line": 15680,
+          "context": "We would soon settle this important point. The Nautilus traveled swiftly. Soon we had cleared the Antarctic Circle plus the promontory of Cape Horn. We were abreast of the tip of South America by March 31 at seven o’clock in the evening."
+        },
+        {
+          "month": "April",
+          "day": 1,
+          "line": 15712,
+          "context": "“Especially once we’ve left him,” Ned Land shot back. The next day, April 1, when the Nautilus rose to the surface of the waves a few minutes before noon, we raised land to the west. It was Tierra del Fuego, the Land of Fire, a name given it by early"
+        },
+        {
+          "month": "April",
+          "day": 3,
+          "line": 15787,
+          "context": "Nemo didn’t put in an appearance. We didn’t leave these Patagonian waterways until April 3, sometimes cruising under the ocean, sometimes on its surface. The Nautilus passed the wide estuary formed by the mouth of the Rio de la Plata,"
+        },
+        {
+          "month": "April",
+          "day": 4,
+          "line": 15790,
+          "context": "cruising under the ocean, sometimes on its surface. The Nautilus passed the wide estuary formed by the mouth of the Rio de la Plata, and on April 4 we lay abreast of Uruguay, albeit fifty miles out. Keeping to its northerly heading, it followed the long windings of South America. By then we had fared 16,000 leagues since coming on"
+        },
+        {
+          "month": "April",
+          "day": 9,
+          "line": 15803,
+          "context": "This speed was maintained for several days, and on the evening of April 9, we raised South America’s easternmost tip, Cape São Roque. But then the Nautilus veered away again and went looking for the lowest depths of an underwater valley gouged between this cape and"
+        },
+        {
+          "month": "April",
+          "day": 11,
+          "line": 15820,
+          "context": "For two days we visited these deep and deserted waters by means of our slanting fins. The Nautilus would do long, diagonal dives that took us to every level. But on April 11 it rose suddenly, and the shore reappeared at the mouth of the Amazon River, a huge estuary whose outflow is so considerable, it desalts the sea over an area of several"
+        },
+        {
+          "month": "April",
+          "day": 11,
+          "line": 15834,
+          "context": "I was readily compensated for this delay by fascinating research. During those two days of April 11-12, the Nautilus didn’t leave the surface of the sea, and its trawl brought up a simply miraculous catch of zoophytes, fish, and reptiles."
+        },
+        {
+          "month": "April",
+          "day": 12,
+          "line": 15934,
+          "context": "surfaces measure at least twenty-seven square feet. During the course of the next day, April 12, the Nautilus drew near the coast of Dutch Guiana, by the mouth of the Maroni River. There several groups of sea cows were living in family units. These were"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 53,
+          "min": 0,
+          "hemisphere": null,
+          "line": 15718,
+          "context": "natives’ huts. This Land of Fire forms a huge cluster of islands over thirty leagues long and eighty leagues wide, extending between latitude 53 degrees and 56 degrees south, and between longitude 67 degrees 50′ and 77 degrees 15′ west. Its coastline looked flat, but high mountains rose in the distance. I even thought I glimpsed"
+        }
+      ],
+      "leagues": [
+        {
+          "value": 16000,
+          "line": 15792,
+          "context": "and on April 4 we lay abreast of Uruguay, albeit fifty miles out. Keeping to its northerly heading, it followed the long windings of South America. By then we had fared 16,000 leagues since coming on board in the seas of Japan."
+        }
+      ],
+      "lineRange": [
+        15600,
+        16008
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 18,
+      "title": "The Devilfish",
+      "ordinal": 42,
+      "dates": [
+        {
+          "month": "April",
+          "day": 16,
+          "line": 16021,
+          "context": "didn’t agree with Captain Nemo. On April 16 we raised Martinique and Guadalupe from a distance of about thirty miles. For one instant I could see their lofty peaks."
+        },
+        {
+          "month": "April",
+          "day": 20,
+          "line": 16108,
+          "context": "fissurella snails, a large species of coastal mollusk. By April 20 we had risen to an average level of 1,500 meters. The nearest land was the island group of the Bahamas, scattered like a batch of cobblestones over the surface of the water. There high"
+        }
+      ],
+      "coords": [],
+      "leagues": [
+        {
+          "value": 17000,
+          "line": 16033,
+          "context": "The Canadian, Conseil, and I had a pretty long conversation on this subject. For six months we had been prisoners aboard the Nautilus. We had fared 17,000 leagues, and as Ned Land put it, there was no end in sight. So he made me a proposition I hadn’t anticipated. We were to ask Captain Nemo this question straight out: did the captain mean to"
+        }
+      ],
+      "lineRange": [
+        16009,
+        16479
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 19,
+      "title": "The Gulf Stream",
+      "ordinal": 43,
+      "dates": [
+        {
+          "month": "April",
+          "day": 20,
+          "line": 16485,
+          "context": "THIS DREADFUL SCENE on April 20 none of us will ever be able to forget. I wrote it up in a state of intense excitement. Later I reviewed my narrative. I read it to Conseil and the Canadian. They"
+        },
+        {
+          "month": "May",
+          "day": 1,
+          "line": 16518,
+          "context": "struggle, from this sea that had devoured one of its own! Ten days went by in this way. It was only on May 1 that the Nautilus openly resumed its northbound course, after raising the Bahamas at the mouth of Old Bahama Channel. We then went with the current of the"
+        },
+        {
+          "month": "May",
+          "day": 8,
+          "line": 16614,
+          "context": "stormy weather that frequently threatened us. On May 8, while abreast of North Carolina, we were across from Cape Hatteras once more. There the Gulf Stream is seventy-five miles wide and 210 meters deep. The Nautilus continued to wander at"
+        },
+        {
+          "month": "May",
+          "day": 13,
+          "line": 16826,
+          "context": "charging the air. A struggle of the elements was approaching. The storm burst during the daytime of May 13, just as the Nautilus was cruising abreast of Long Island, a few miles from the narrows to Upper New York Bay. I’m able to describe this struggle of the elements"
+        },
+        {
+          "month": "December",
+          "day": 23,
+          "line": 16872,
+          "context": "surface they strike. It was such waves in the Hebrides that repositioned a stone block weighing 84,000 pounds. It was their relatives in the tidal wave on December 23, 1854, that toppled part of the Japanese city of Tokyo, then went that same day at 700 kilometers per hour to break on the beaches of America."
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        16480,
+        16926
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 20,
+      "title": "In Latitude 47° 24′ and Longitude 17° 28′",
+      "ordinal": 44,
+      "dates": [
+        {
+          "month": "May",
+          "day": 15,
+          "line": 16965,
+          "context": "as if passing the dead in review! By May 15 we were off the southern tip of the Grand Banks of Newfoundland. These banks are the result of marine sedimentation, an extensive accumulation of organic waste brought either from the"
+        },
+        {
+          "month": "May",
+          "day": 17,
+          "line": 17069,
+          "context": "utmost accuracy. It was on May 17, about 500 miles from Heart’s Content and 2,800 meters down, that I spotted this cable lying on the seafloor. Conseil, whom I hadn’t alerted, mistook it at first for a gigantic sea snake"
+        },
+        {
+          "month": "May",
+          "day": 25,
+          "line": 17082,
+          "context": "failed. Now then, on May 25 while submerged to a depth of 3,836 meters, the Nautilus lay in precisely the locality where this second cable suffered the rupture that ruined the undertaking. It happened 638"
+        },
+        {
+          "month": "July",
+          "day": 13,
+          "line": 17099,
+          "context": "within a gutta-percha covering, which was protected by a padding of textile material enclosed in a metal sheath. The Great Eastern put back to sea on July 13, 1866. The operation proceeded apace. Yet there was one hitch. As they"
+        },
+        {
+          "month": "July",
+          "day": 23,
+          "line": 17109,
+          "context": "trial. After that, these villainous attempts were not repeated. By July 23 the Great Eastern was lying no farther than 800 kilometers from Newfoundland when it received telegraphed news from Ireland of an armistice signed between Prussia and Austria after the Battle of"
+        },
+        {
+          "month": "May",
+          "day": 28,
+          "line": 17137,
+          "context": "you could fit Mt. Blanc without its summit poking above the surface of the waves. This valley is closed off to the east by a sheer wall 2,000 meters high. We arrived there on May 28, and the Nautilus lay no farther than 150 kilometers from Ireland."
+        },
+        {
+          "month": "May",
+          "day": 30,
+          "line": 17153,
+          "context": "France? But the Nautilus kept gravitating southward. On May 30, in sight of Land’s End, it passed between the lowermost tip of England and the Scilly Islands, which it left behind to starboard."
+        },
+        {
+          "month": "May",
+          "day": 31,
+          "line": 17160,
+          "context": "head east. It did not. All day long on May 31, the Nautilus swept around the sea in a series of circles that had me deeply puzzled. It seemed to be searching for a locality that it had some trouble finding. At noon Captain Nemo"
+        },
+        {
+          "month": "June",
+          "day": 1,
+          "line": 17171,
+          "context": "secrets. The next day, June 1, the Nautilus kept to the same tack. It was obviously trying to locate some precise spot in the ocean. Just as on the day before, Captain Nemo came to take the altitude of the sun. The"
+        },
+        {
+          "month": "August",
+          "day": 13,
+          "line": 17224,
+          "context": "“Originally this ship was christened the Marseillais. It carried seventy-four cannons and was launched in 1762. On August 13, 1778, commanded by La Poype-Vertrieux, it fought valiantly against the Preston. On July 4, 1779, as a member of the squadron under Admiral"
+        },
+        {
+          "month": "July",
+          "day": 4,
+          "line": 17226,
+          "context": "seventy-four cannons and was launched in 1762. On August 13, 1778, commanded by La Poype-Vertrieux, it fought valiantly against the Preston. On July 4, 1779, as a member of the squadron under Admiral d’Estaing, it assisted in the capture of the island of Grenada. On September 5, 1781, under the Count de Grasse, it took part in the"
+        },
+        {
+          "month": "September",
+          "day": 5,
+          "line": 17228,
+          "context": "Preston. On July 4, 1779, as a member of the squadron under Admiral d’Estaing, it assisted in the capture of the island of Grenada. On September 5, 1781, under the Count de Grasse, it took part in the Battle of Chesapeake Bay. In 1794 the new Republic of France changed the name of this ship. On April 16 of that same year, it joined the"
+        },
+        {
+          "month": "April",
+          "day": 16,
+          "line": 17230,
+          "context": "September 5, 1781, under the Count de Grasse, it took part in the Battle of Chesapeake Bay. In 1794 the new Republic of France changed the name of this ship. On April 16 of that same year, it joined the squadron at Brest under Rear Admiral Villaret de Joyeuse, who was entrusted with escorting a convoy of wheat coming from America under"
+        },
+        {
+          "month": "June",
+          "day": 1,
+          "line": 17236,
+          "context": "Revolutionary Calendar, on the 11th and 12th days in the Month of Pasture, this squadron fought an encounter with English vessels. Sir, today is June 1, 1868, or the 13th day in the Month of Pasture. Seventy-four years ago to the day, at this very spot in latitude 47 degrees 24′ and longitude 17 degrees 28′, this ship sank"
+        }
+      ],
+      "coords": [
+        {
+          "axis": "latitude",
+          "deg": 47,
+          "min": 24,
+          "hemisphere": null,
+          "line": 16929,
+          "context": "CHAPTER 20 In Latitude 47° 24′ and Longitude 17° 28′"
+        },
+        {
+          "axis": "longitude",
+          "deg": 17,
+          "min": 28,
+          "hemisphere": null,
+          "line": 16929,
+          "context": "CHAPTER 20 In Latitude 47° 24′ and Longitude 17° 28′"
+        },
+        {
+          "axis": "latitude",
+          "deg": 42,
+          "min": 0,
+          "hemisphere": null,
+          "line": 17060,
+          "context": "But the ship didn’t stay long in these heavily traveled waterways. It went up to about latitude 42 degrees. This brought it abreast of St. John’s in Newfoundland and Heart’s Content, where the Atlantic Cable reaches its end point."
+        },
+        {
+          "axis": "latitude",
+          "deg": 47,
+          "min": 24,
+          "hemisphere": null,
+          "line": 17238,
+          "context": "today is June 1, 1868, or the 13th day in the Month of Pasture. Seventy-four years ago to the day, at this very spot in latitude 47 degrees 24′ and longitude 17 degrees 28′, this ship sank after a heroic battle; its three masts gone, water in its hold, a third of its crew out of action, it preferred to go to the bottom with"
+        },
+        {
+          "axis": "longitude",
+          "deg": 17,
+          "min": 28,
+          "hemisphere": null,
+          "line": 17238,
+          "context": "today is June 1, 1868, or the 13th day in the Month of Pasture. Seventy-four years ago to the day, at this very spot in latitude 47 degrees 24′ and longitude 17 degrees 28′, this ship sank after a heroic battle; its three masts gone, water in its hold, a third of its crew out of action, it preferred to go to the bottom with"
+        }
+      ],
+      "leagues": [],
+      "lineRange": [
+        16927,
+        17250
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 21,
+      "title": "A Mass Execution",
+      "ordinal": 45,
+      "dates": [
+        {
+          "month": "June",
+          "day": 2,
+          "line": 17561,
+          "context": "surface. A few morning gleams infiltrated the liquid strata. Beneath the undulations of the billows, the windows were enlivened by the blushing of the rising sun. That dreadful day of June 2 had dawned. At seven o’clock the log told me that the Nautilus had reduced"
+        }
+      ],
+      "coords": [],
+      "leagues": [],
+      "lineRange": [
+        17251,
+        17646
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 22,
+      "title": "The Last Words of Captain Nemo",
+      "ordinal": 46,
+      "dates": [],
+      "coords": [],
+      "leagues": [
+        {
+          "value": 200,
+          "line": 17683,
+          "context": "question. By evening we had cleared 200 leagues up the Atlantic. Shadows gathered and gloom overran the sea until the moon came up."
+        }
+      ],
+      "lineRange": [
+        17647,
+        17947
+      ]
+    },
+    {
+      "part": 2,
+      "chapter": 23,
+      "title": "Conclusion",
+      "ordinal": 47,
+      "dates": [],
+      "coords": [],
+      "leagues": [
+        {
+          "value": 20000,
+          "line": 17976,
+          "context": "unimportant. What I can now assert is that I’ve earned the right to speak of these seas, beneath which in less than ten months, I’ve cleared 20,000 leagues in this underwater tour of the world that has shown me so many wonders across the Pacific, the Indian Ocean, the Red Sea, the Mediterranean, the Atlantic, the southernmost and"
+        }
+      ],
+      "lineRange": [
+        17948,
+        18365
+      ]
+    }
+  ]
+}

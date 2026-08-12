@@ -3,7 +3,7 @@
 An interactive map of the journey in *Twenty Thousand Leagues Under the Sea*, built for
 reading the book aloud a chapter at a time.
 
-**Open `voyage.html`.** Double-click it. That is the whole thing — one self-contained file,
+**Open `index.html`.** Double-click it. That is the whole thing — one self-contained file,
 no server, no internet, no build step. It works offline.
 
 ## Using it while you read
@@ -24,8 +24,10 @@ no server, no internet, no build step. It works offline.
   counters keep showing your true progress whatever is hidden.
 - **The places in the chapter you are on are picked out in orange**, so you can see at a
   glance which points tonight's reading covers — a chapter often has several.
-- **Show whole voyage** turns the gate off, for when you have finished the book.
-- **Replay** animates the voyage up to where you have read.
+- **Every dot is numbered**, and the numbering starts again for each of the three tracks:
+  early sightings 1–4, the chase 1–10, the *Nautilus* 1–61. The detail panel names the stop
+  ("stop 28 of 61"). A stop keeps its number however far you have read.
+- To see the whole voyage once you have finished the book, run the chapter up to 47.
 - Drag to pan, scroll to zoom — useful in the crowded bits like the Torres Strait.
   **The map wraps round.** You can keep dragging west (or east) for ever, so the Pacific
   crossing can be followed straight through the dateline instead of jumping from one edge of
@@ -85,7 +87,7 @@ so. None was defaulted to positive.
 ```bash
 node tools/extract.mjs > data/candidates.json   # text  -> candidate readings
 node tools/verify.mjs                           # check the curated data
-node tools/build.mjs                            # -> voyage.html
+node tools/build.mjs                            # -> index.html
 ```
 
 - `data/journey.json` — the curated waypoints. **This is the real content.** Coordinates,
@@ -93,7 +95,7 @@ node tools/build.mjs                            # -> voyage.html
 - `tools/extract.mjs` — parses the 47 chapters and pulls out dates, coordinates and league
   marks as *candidates*. Its output is never used directly.
 - `tools/verify.mjs` — the guard rails (see below).
-- `tools/build.mjs` — simplifies the basemap, lifts the quotes, inlines everything.
+- `tools/build.mjs` — simplifies the basemap, lifts the quotes, inlines everything into `index.html`.
 
 Quotes are **not stored** in `journey.json`. Each waypoint holds a line range, and the build
 lifts the text out of the source and then asserts the result appears verbatim in the book, so a
@@ -116,3 +118,16 @@ quote cannot drift from what Verne wrote.
 6. Coordinates in range, legs and place kinds valid.
 
 Basemap: Natural Earth 110m land, simplified to 115 rings.
+
+## Credits and licence
+
+- **The text** is *Twenty Thousand Leagues Under the Seas*, translated by F. P. Walter, from
+  [Project Gutenberg #2488](https://www.gutenberg.org/ebooks/2488). Verne's original is long
+  out of copyright and Walter placed his translation in the public domain.
+  `tools/source/pg2488.txt` is the unmodified Gutenberg file, licence header and all, which is
+  what the Project Gutenberg Licence asks for. "Project Gutenberg" is a registered trademark of
+  the Project Gutenberg Literary Archive Foundation; this project is not affiliated with them.
+- **The basemap** is [Natural Earth](https://www.naturalearthdata.com/) 110m land — public
+  domain.
+- **Everything else** — the curated waypoints in `data/journey.json`, the tools and the page —
+  is MIT licensed. See [LICENSE](LICENSE).

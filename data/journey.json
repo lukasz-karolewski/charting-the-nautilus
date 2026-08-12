@@ -1,0 +1,1514 @@
+{
+  "_readme": [
+    "Curated waypoints for the Nautilus voyage, adjudicated by hand against the",
+    "F. P. Walter translation (Project Gutenberg #2488) in tools/source/pg2488.txt.",
+    "",
+    "Quotes are NOT stored here. Each waypoint carries quoteLines [start,end] and",
+    "tools/build.mjs lifts the text verbatim from the source, so a quote cannot drift",
+    "from the book. chapterTitle is likewise joined in from the parsed chapter list.",
+    "",
+    "ordinal (1-47) is the ONLY safe ordering key: both parts restart at chapter 1.",
+    "hemisphere: many readings in the text carry no N/S/E/W. Where one was inferred",
+    "from the narrative, the note says so. Nothing here was defaulted to positive.",
+    "day is computed at build time from date, with day 1 = 8 November 1867."
+  ],
+  "meta": {
+    "voyageStart": "1867-11-08",
+    "source": "Jules Verne, Twenty Thousand Leagues Under the Seas, tr. F. P. Walter (PG #2488)",
+    "totalLeagues": 20000
+  },
+  "waypoints": [
+    {
+      "id": "governor-higginson",
+      "name": "Off eastern Australia",
+      "kidName": "The very first sighting",
+      "lat": -25,
+      "lon": 154,
+      "date": "1866-07-20",
+      "dateCertainty": "explicit",
+      "ordinal": 1,
+      "part": 1,
+      "chapter": 1,
+      "leg": "sighting",
+      "placeKind": "real",
+      "note": "The steamer Governor Higginson meets the 'monster' five miles off Australia. This is two years before the Nautilus voyage, and it is another ship's report, not Aronnax's position.",
+      "quoteLines": [
+        356,
+        358
+      ],
+      "sourceLine": 356
+    },
+    {
+      "id": "helvetia-shannon",
+      "name": "Mid-Atlantic",
+      "kidName": "Two ships see it at once",
+      "lat": 42.25,
+      "lon": -60.583,
+      "date": "1866-08-01",
+      "dateCertainty": "inferred",
+      "ordinal": 1,
+      "part": 1,
+      "chapter": 1,
+      "leg": "sighting",
+      "placeKind": "real",
+      "note": "The Helvetia and the Shannon signal each other that they have both seen it. Verne gives the position but not the date; 'fifteen days later' places it around early August 1866.",
+      "quoteLines": [
+        380,
+        383
+      ],
+      "sourceLine": 381
+    },
+    {
+      "id": "moravian",
+      "name": "Near the Bahamas",
+      "kidName": "The Moravian strikes something",
+      "lat": 27.5,
+      "lon": -72.25,
+      "date": "1867-03-05",
+      "dateCertainty": "explicit",
+      "ordinal": 1,
+      "part": 1,
+      "chapter": 1,
+      "leg": "sighting",
+      "placeKind": "real",
+      "note": "Hemisphere inferred: the text gives bare '27 degrees 30' and 72 degrees 15'' with no N/S/E/W. The Moravian was a Montreal Ocean Co. ship on the North Atlantic run, which fixes it as north and west.",
+      "quoteLines": [
+        455,
+        458
+      ],
+      "sourceLine": 456
+    },
+    {
+      "id": "scotia",
+      "name": "West of Ireland",
+      "kidName": "A hole punched in the Scotia",
+      "lat": 45.617,
+      "lon": -15.2,
+      "date": "1867-04-13",
+      "dateCertainty": "explicit",
+      "ordinal": 1,
+      "part": 1,
+      "chapter": 1,
+      "leg": "sighting",
+      "placeKind": "real",
+      "note": "Verne writes longitude BEFORE latitude here, and gives no hemisphere for either. The Scotia was a Cunard liner bound for Liverpool, which fixes it as north and west. This is the damage that finally launches the expedition.",
+      "quoteLines": [
+        509,
+        512
+      ],
+      "sourceLine": 510
+    },
+    {
+      "id": "brooklyn-departure",
+      "name": "Brooklyn, New York",
+      "kidName": "The chase begins",
+      "lat": 40.7,
+      "lon": -74,
+      "date": "1867-06-04",
+      "dateCertainty": "inferred",
+      "ordinal": 3,
+      "part": 1,
+      "chapter": 3,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "The frigate Abraham Lincoln casts off with Aronnax, Conseil and Ned Land aboard. Verne never dates the departure; chapter 4 calls 25 June 'three weeks after our departure', which places it in the first days of June.",
+      "quoteLines": [
+        1003,
+        1006
+      ],
+      "sourceLine": 1004
+    },
+    {
+      "id": "cabo-blanco",
+      "name": "Cabo Blanco, Patagonia",
+      "kidName": "Down the coast of South America",
+      "lat": -47.2,
+      "lon": -65.75,
+      "date": "1867-06-25",
+      "dateCertainty": "explicit",
+      "ordinal": 4,
+      "part": 1,
+      "chapter": 4,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "quoteLines": [
+        1160,
+        1163
+      ],
+      "sourceLine": 1160
+    },
+    {
+      "id": "falkland-islands",
+      "name": "Falkland Islands",
+      "kidName": "Meeting the whaling fleet",
+      "lat": -51.7,
+      "lon": -59,
+      "date": "1867-06-30",
+      "dateCertainty": "explicit",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "quoteLines": [
+        1360,
+        1362
+      ],
+      "sourceLine": 1360
+    },
+    {
+      "id": "strait-of-magellan",
+      "name": "Strait of Magellan",
+      "kidName": "Too narrow for a monster",
+      "lat": -52.33,
+      "lon": -68.4,
+      "date": "1867-07-03",
+      "dateCertainty": "explicit",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "Farragut will not risk the strait and goes the long way round instead. Ned Land jokes the monster could never fit through anyway, because 'he's too big for it!'",
+      "quoteLines": [
+        1374,
+        1378
+      ],
+      "sourceLine": 1374
+    },
+    {
+      "id": "cape-horn",
+      "name": "Cape Horn",
+      "kidName": "Round the bottom of the world",
+      "lat": -55.98,
+      "lon": -67.27,
+      "date": "1867-07-06",
+      "dateCertainty": "explicit",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "quoteLines": [
+        1384,
+        1389
+      ],
+      "sourceLine": 1384
+    },
+    {
+      "id": "capricorn-105",
+      "name": "Tropic of Capricorn",
+      "kidName": "Out into the wide Pacific",
+      "lat": -23.44,
+      "lon": -105,
+      "date": "1867-07-20",
+      "dateCertainty": "explicit",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "Longitude given bare as '105 degrees'; west, since the frigate has just rounded Cape Horn and is standing out into the South Pacific.",
+      "quoteLines": [
+        1455,
+        1457
+      ],
+      "sourceLine": 1455
+    },
+    {
+      "id": "equator-110",
+      "name": "Crossing the equator",
+      "kidName": "Crossing the line",
+      "lat": 0,
+      "lon": -110,
+      "date": "1867-07-27",
+      "dateCertainty": "explicit",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "Longitude west, inferred from the run between the previous and next fixes.",
+      "quoteLines": [
+        1455,
+        1458
+      ],
+      "sourceLine": 1456,
+      "dateText": "the 27th of the same month"
+    },
+    {
+      "id": "cancer-132",
+      "name": "Tropic of Cancer",
+      "kidName": "Turning for the seas of China",
+      "lat": 23.44,
+      "lon": -132,
+      "date": "1867-09-15",
+      "dateCertainty": "inferred",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "Verne gives no date for this crossing, only that it came after passing the Tuamotus, Marquesas and Hawaii. Placed mid-September between the dated fixes on either side.",
+      "quoteLines": [
+        1462,
+        1467
+      ],
+      "sourceLine": 1466
+    },
+    {
+      "id": "japan-station",
+      "name": "Off Japan",
+      "kidName": "Three days left to find it",
+      "lat": 31.25,
+      "lon": 136.7,
+      "date": "1867-11-02",
+      "dateCertainty": "explicit",
+      "ordinal": 5,
+      "part": 1,
+      "chapter": 5,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "Farragut promises the crew he will turn for home in three days if nothing is found. The deadline expires at noon on 5 November.",
+      "quoteLines": [
+        1543,
+        1545
+      ],
+      "sourceLine": 1543
+    },
+    {
+      "id": "the-collision",
+      "name": "The encounter",
+      "kidName": "Thrown into the sea!",
+      "lat": 31.5,
+      "lon": 136.5,
+      "date": "1867-11-06",
+      "dateCertainty": "inferred",
+      "ordinal": 7,
+      "part": 1,
+      "chapter": 7,
+      "leg": "abraham_lincoln",
+      "placeKind": "real",
+      "note": "The frigate finds the creature at last and is struck; Aronnax goes over the side, Conseil dives in after him, and they find Ned Land already standing on a steel hull. Verne dates the encounter 6 November in the previous chapter and runs it through the night without repeating the date.",
+      "quoteLines": [
+        2338,
+        2340
+      ],
+      "sourceLine": 2338
+    },
+    {
+      "id": "voyage-begins",
+      "name": "300 miles from Japan",
+      "kidName": "Day one aboard the Nautilus",
+      "lat": 30.117,
+      "lon": 137.25,
+      "date": "1867-11-08",
+      "dateCertainty": "explicit",
+      "ordinal": 14,
+      "part": 1,
+      "chapter": 14,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 0,
+      "note": "Nemo fixes the position and declares the voyage begun. Careful: he says '137 degrees 15' west of the meridian of Paris', which would put them in the mid-Pacific, yet in the same breath says 'about 300 miles from the shores of Japan'. The numbers work as EAST; the 'west' is Verne's slip. Placed where the story says they are.",
+      "quoteLines": [
+        4382,
+        4385
+      ],
+      "sourceLine": 4384
+    },
+    {
+      "id": "crespo-island",
+      "name": "Crespo Island",
+      "kidName": "Hunting in an underwater forest",
+      "lat": 32.667,
+      "lon": -167.833,
+      "date": "1867-11-17",
+      "dateCertainty": "explicit",
+      "ordinal": 15,
+      "part": 1,
+      "chapter": 15,
+      "leg": "nautilus",
+      "placeKind": "fictional",
+      "note": "Nemo invites them to hunt in the drowned forests of Crespo. Aronnax looks the island up on the map and finds an islet reported in 1801 - but no such island exists. It is one of Verne s inventions. The walk itself follows in the next two chapters.",
+      "quoteLines": [
+        4924,
+        4926
+      ],
+      "sourceLine": 4924
+    },
+    {
+      "id": "tropic-cancer-172",
+      "name": "Tropic of Cancer",
+      "kidName": "Southward across the Pacific",
+      "lat": 23.44,
+      "lon": -172,
+      "date": "1867-11-26",
+      "dateCertainty": "explicit",
+      "ordinal": 18,
+      "part": 1,
+      "chapter": 18,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Longitude given bare as '172 degrees'; read as west, since it falls between Crespo Island and the sighting of Hawaii the next day.",
+      "quoteLines": [
+        5866,
+        5868
+      ],
+      "sourceLine": 5866
+    },
+    {
+      "id": "hawaii",
+      "name": "Hawaiian Islands",
+      "kidName": "Where Captain Cook died",
+      "lat": 19.6,
+      "lon": -155.5,
+      "date": "1867-11-27",
+      "dateCertainty": "explicit",
+      "ordinal": 18,
+      "part": 1,
+      "chapter": 18,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 4860,
+      "quoteLines": [
+        5866,
+        5871
+      ],
+      "sourceLine": 5869,
+      "dateText": "On the 27th it passed in sight of the Hawaiian Islands"
+    },
+    {
+      "id": "equator-142",
+      "name": "Crossing the equator",
+      "kidName": "Over the line again",
+      "lat": 0,
+      "lon": -142,
+      "date": "1867-12-01",
+      "dateCertainty": "explicit",
+      "ordinal": 18,
+      "part": 1,
+      "chapter": 18,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Longitude west, confirmed by the run from Hawaii to the Marquesas on either side of it.",
+      "quoteLines": [
+        5880,
+        5883
+      ],
+      "sourceLine": 5881
+    },
+    {
+      "id": "marquesas",
+      "name": "Marquesas Islands",
+      "kidName": "Green islands in the distance",
+      "lat": -8.95,
+      "lon": -139.533,
+      "date": "1867-12-04",
+      "dateCertainty": "explicit",
+      "ordinal": 18,
+      "part": 1,
+      "chapter": 18,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        5883,
+        5886
+      ],
+      "sourceLine": 5884
+    },
+    {
+      "id": "tuamotus",
+      "name": "Tuamotu Islands",
+      "kidName": "The dangerous islands",
+      "lat": -18.5,
+      "lon": -136.4,
+      "date": "1867-12-11",
+      "dateCertainty": "explicit",
+      "ordinal": 19,
+      "part": 1,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Bougainville's 'dangerous group' - a maze of low coral atolls. The Nautilus touches the Tropic of Capricorn here and changes course.",
+      "quoteLines": [
+        6089,
+        6092
+      ],
+      "sourceLine": 6091
+    },
+    {
+      "id": "society-islands",
+      "name": "Society Islands",
+      "kidName": "Tahiti slips past to the west",
+      "lat": -17.6,
+      "lon": -149.6,
+      "date": "1867-12-15",
+      "dateCertainty": "explicit",
+      "ordinal": 19,
+      "part": 1,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        6097,
+        6099
+      ],
+      "sourceLine": 6097
+    },
+    {
+      "id": "tonga-fiji",
+      "name": "Fiji Islands",
+      "kidName": "Christmas Day at sea",
+      "lat": -17.8,
+      "lon": 178,
+      "date": "1867-12-25",
+      "dateCertainty": "explicit",
+      "ordinal": 19,
+      "part": 1,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Christmas passes unmarked aboard - Ned Land misses it badly. The Nautilus threads the island group Verne places between latitude 2 and 6 degrees south.",
+      "quoteLines": [
+        6145,
+        6147
+      ],
+      "sourceLine": 6145
+    },
+    {
+      "id": "vanikoro",
+      "name": "Vanikoro",
+      "kidName": "The wreck of La Perouse",
+      "lat": -16.067,
+      "lon": 164.533,
+      "date": "1867-12-26",
+      "dateCertainty": "inferred",
+      "ordinal": 19,
+      "part": 1,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Nemo shows Aronnax the wreck of La Perouse s expedition, lost in 1788 - a real mystery, solved only forty years later. Verne s fix of 16 deg 4 S is south of the real Vanikoro near 11 deg 40 S. The visit falls between the dated 25 December and the departure on the night of 27-28 December.",
+      "quoteLines": [
+        6191,
+        6193
+      ],
+      "sourceLine": 6191
+    },
+    {
+      "id": "coral-sea",
+      "name": "Coral Sea",
+      "kidName": "5,250 leagues so far",
+      "lat": -15,
+      "lon": 150,
+      "date": "1868-01-02",
+      "dateCertainty": "explicit",
+      "ordinal": 20,
+      "part": 1,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 5250,
+      "quoteLines": [
+        6469,
+        6472
+      ],
+      "sourceLine": 6469
+    },
+    {
+      "id": "torres-strait",
+      "name": "Torres Strait",
+      "kidName": "Stuck fast on a reef",
+      "lat": -9.9,
+      "lon": 142.6,
+      "date": "1868-01-04",
+      "dateCertainty": "explicit",
+      "ordinal": 20,
+      "part": 1,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The Nautilus runs hard aground on a coral reef and cannot move. Nemo is unbothered: he will simply wait for the spring tide on the 9th to lift her off.",
+      "quoteLines": [
+        6501,
+        6504
+      ],
+      "sourceLine": 6501
+    },
+    {
+      "id": "gilboa-island",
+      "name": "Gueboroa Island, Papua",
+      "kidName": "Ashore - and chased by islanders",
+      "lat": -9.5,
+      "lon": 142.9,
+      "date": "1868-01-06",
+      "dateCertainty": "explicit",
+      "ordinal": 21,
+      "part": 1,
+      "chapter": 21,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Marooned by the tide, the three go ashore for fresh fruit and roast bird - the only time they set foot on land in months. Hundreds of Papuans drive them back to the ship.",
+      "quoteLines": [
+        7010,
+        7012
+      ],
+      "sourceLine": 7010
+    },
+    {
+      "id": "electrified-rail",
+      "name": "Torres Strait",
+      "kidName": "The captain's electric fence",
+      "lat": -9.7,
+      "lon": 142.8,
+      "date": "1868-01-08",
+      "dateCertainty": "explicit",
+      "ordinal": 22,
+      "part": 1,
+      "chapter": 22,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The islanders try to board through the open hatch and are flung back by a shock - Nemo has electrified the handrail. The tide lifts the Nautilus free the next day.",
+      "quoteLines": [
+        7389,
+        7391
+      ],
+      "sourceLine": 7389
+    },
+    {
+      "id": "cape-wessel",
+      "name": "Cape Wessel, Australia",
+      "kidName": "Along the top of Australia",
+      "lat": -11,
+      "lon": 136.75,
+      "date": "1868-01-11",
+      "dateCertainty": "explicit",
+      "ordinal": 23,
+      "part": 1,
+      "chapter": 23,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Verne says Cape Wessel lies at 'latitude 10 degrees north' - it is 11 degrees SOUTH, at the top of the Gulf of Carpentaria. The place name is unambiguous, so the point is drawn at the real cape and Verne's 'north' is an error.",
+      "quoteLines": [
+        7802,
+        7805
+      ],
+      "sourceLine": 7803
+    },
+    {
+      "id": "timor",
+      "name": "Timor Sea",
+      "kidName": "Past the island of Timor",
+      "lat": -9.5,
+      "lon": 122,
+      "date": "1868-01-13",
+      "dateCertainty": "explicit",
+      "ordinal": 23,
+      "part": 1,
+      "chapter": 23,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        7810,
+        7813
+      ],
+      "sourceLine": 7811
+    },
+    {
+      "id": "indian-ocean-jan18",
+      "name": "Indian Ocean",
+      "kidName": "A storm and a strange sleep",
+      "lat": -15,
+      "lon": 105,
+      "date": "1868-01-18",
+      "dateCertainty": "explicit",
+      "ordinal": 23,
+      "part": 1,
+      "chapter": 23,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Both figures given bare; east and south, from the run between Timor and Keeling Island. That night the three are drugged and shut in - and Aronnax wakes to a wounded man aboard.",
+      "quoteLines": [
+        7988,
+        7990
+      ],
+      "sourceLine": 7988
+    },
+    {
+      "id": "coral-cemetery",
+      "name": "The coral cemetery",
+      "kidName": "A graveyard made of coral",
+      "lat": -16,
+      "lon": 100,
+      "date": "1868-01-20",
+      "dateCertainty": "inferred",
+      "ordinal": 24,
+      "part": 1,
+      "chapter": 24,
+      "leg": "nautilus",
+      "placeKind": "fictional",
+      "note": "The crewman who died is buried in a forest of coral on the sea floor, where the coral will slowly grow over the graves. Verne gives no position; placed on the run between the 18 January fix and the Indian Ocean chapter.",
+      "quoteLines": [
+        8180,
+        8182
+      ],
+      "sourceLine": 8180
+    },
+    {
+      "id": "indian-ocean-jan21",
+      "name": "Indian Ocean",
+      "kidName": "6,000 leagues covered",
+      "lat": -12,
+      "lon": 98,
+      "date": "1868-01-21",
+      "dateCertainty": "explicit",
+      "ordinal": 25,
+      "part": 2,
+      "chapter": 1,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 6000,
+      "quoteLines": [
+        8567,
+        8570
+      ],
+      "sourceLine": 8569
+    },
+    {
+      "id": "keeling-island",
+      "name": "Keeling Island",
+      "kidName": "A coral island of palms",
+      "lat": -12.083,
+      "lon": 94.55,
+      "date": "1868-01-24",
+      "dateCertainty": "explicit",
+      "ordinal": 25,
+      "part": 2,
+      "chapter": 1,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Longitude given bare as '94 degrees 33'', read as east. The real Cocos (Keeling) Islands sit a little further east, near 96 deg 50'.",
+      "quoteLines": [
+        8723,
+        8725
+      ],
+      "sourceLine": 8723,
+      "dateText": "On the morning of the 24th"
+    },
+    {
+      "id": "bay-of-bengal",
+      "name": "Bay of Bengal",
+      "kidName": "Sharks at the river mouths",
+      "lat": 15,
+      "lon": 85,
+      "date": "1868-01-27",
+      "dateCertainty": "explicit",
+      "ordinal": 25,
+      "part": 2,
+      "chapter": 1,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        8854,
+        8856
+      ],
+      "sourceLine": 8854
+    },
+    {
+      "id": "ceylon",
+      "name": "Ceylon",
+      "kidName": "The pearl banks of Ceylon",
+      "lat": 9.067,
+      "lon": 79.7,
+      "date": "1868-01-28",
+      "dateCertainty": "explicit",
+      "ordinal": 26,
+      "part": 2,
+      "chapter": 2,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Nemo proposes an excursion to the pearl banks of Manaar - and mentions, casually, that there will be sharks.",
+      "quoteLines": [
+        8912,
+        8915
+      ],
+      "sourceLine": 8912
+    },
+    {
+      "id": "pearl-fishery",
+      "name": "Manaar pearl banks",
+      "kidName": "The diver and the shark",
+      "lat": 8.9,
+      "lon": 79.5,
+      "date": "1868-01-29",
+      "dateCertainty": "inferred",
+      "ordinal": 27,
+      "part": 2,
+      "chapter": 3,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "A pearl diver is attacked by a shark; Nemo throws himself at it with a dagger and Ned Land s harpoon finishes it. Nemo gives the rescued man a bag of pearls. Verne dates the return in the next chapter, on 29 January.",
+      "quoteLines": [
+        9830,
+        9832
+      ],
+      "sourceLine": 9830
+    },
+    {
+      "id": "laccadives",
+      "name": "Laccadive Islands",
+      "kidName": "7,500 leagues covered",
+      "lat": 11,
+      "lon": 72,
+      "date": "1868-01-30",
+      "dateCertainty": "explicit",
+      "ordinal": 28,
+      "part": 2,
+      "chapter": 4,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 7500,
+      "note": "Verne places the group 'between longitude 50 degrees 72' and 69 degrees east' - 72 minutes is impossible, since there are only 60 in a degree. A slip in the text; the islands themselves lie near 72 degrees east.",
+      "quoteLines": [
+        9849,
+        9851
+      ],
+      "sourceLine": 9849
+    },
+    {
+      "id": "gulf-of-oman",
+      "name": "Gulf of Oman",
+      "kidName": "A dead end - or is it?",
+      "lat": 24.5,
+      "lon": 58.5,
+      "date": "1868-02-03",
+      "dateCertainty": "explicit",
+      "ordinal": 28,
+      "part": 2,
+      "chapter": 4,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        9919,
+        9921
+      ],
+      "sourceLine": 9919
+    },
+    {
+      "id": "bab-el-mandeb",
+      "name": "Strait of Bab el Mandeb",
+      "kidName": "The Gate of Tears",
+      "lat": 12.6,
+      "lon": 43.4,
+      "date": "1868-02-07",
+      "dateCertainty": "explicit",
+      "ordinal": 28,
+      "part": 2,
+      "chapter": 4,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The narrow gate into the Red Sea. Its name means 'the Gate of Tears'. Ned Land is baffled - the Red Sea is a dead end, so how will they ever get out?",
+      "quoteLines": [
+        9950,
+        9952
+      ],
+      "sourceLine": 9950
+    },
+    {
+      "id": "red-sea",
+      "name": "The Red Sea",
+      "kidName": "Why is the Red Sea red?",
+      "lat": 20,
+      "lon": 38.5,
+      "date": "1868-02-09",
+      "dateCertainty": "explicit",
+      "ordinal": 28,
+      "part": 2,
+      "chapter": 4,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        10091,
+        10093
+      ],
+      "sourceLine": 10091
+    },
+    {
+      "id": "jidda",
+      "name": "Jidda, Arabia",
+      "kidName": "Lights on the Arab coast",
+      "lat": 21.5,
+      "lon": 39.17,
+      "date": "1868-02-10",
+      "dateCertainty": "explicit",
+      "ordinal": 29,
+      "part": 2,
+      "chapter": 5,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        10385,
+        10388
+      ],
+      "sourceLine": 10385
+    },
+    {
+      "id": "arabian-tunnel",
+      "name": "The Arabian Tunnel",
+      "kidName": "A secret tunnel under the desert",
+      "lat": 29,
+      "lon": 33,
+      "date": "1868-02-11",
+      "dateCertainty": "explicit",
+      "ordinal": 29,
+      "part": 2,
+      "chapter": 5,
+      "leg": "nautilus",
+      "placeKind": "fictional",
+      "note": "Nemo's answer to Ned's question: a natural passage under the Isthmus of Suez, from the Red Sea to the Mediterranean, known only to him. He calls it the Arabian Tunnel. It does not exist - and the real Suez Canal opened the year after Verne wrote this.",
+      "quoteLines": [
+        10634,
+        10636
+      ],
+      "sourceLine": 10634
+    },
+    {
+      "id": "mediterranean-entry",
+      "name": "Off Pelusium, Egypt",
+      "kidName": "Out into the Mediterranean",
+      "lat": 31.5,
+      "lon": 32.3,
+      "date": "1868-02-12",
+      "dateCertainty": "explicit",
+      "ordinal": 30,
+      "part": 2,
+      "chapter": 6,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "They went in by the Red Sea and came out in the Mediterranean, in a single night.",
+      "quoteLines": [
+        10764,
+        10766
+      ],
+      "sourceLine": 10764
+    },
+    {
+      "id": "santorini",
+      "name": "Santorini",
+      "kidName": "Swimming in boiling water",
+      "lat": 36.4,
+      "lon": 25.4,
+      "date": "1868-02-16",
+      "dateCertainty": "explicit",
+      "ordinal": 30,
+      "part": 2,
+      "chapter": 6,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The Nautilus passes through a sea literally on the boil, where a new volcanic island is being born. The water outside reaches 45 degrees C and the hull glows in the sulphurous murk.",
+      "quoteLines": [
+        11254,
+        11256
+      ],
+      "sourceLine": 11254
+    },
+    {
+      "id": "gibraltar",
+      "name": "Strait of Gibraltar",
+      "kidName": "The whole sea in two days",
+      "lat": 35.95,
+      "lon": -5.6,
+      "date": "1868-02-18",
+      "dateCertainty": "explicit",
+      "ordinal": 31,
+      "part": 2,
+      "chapter": 7,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "600 leagues of Mediterranean crossed in about 48 hours - so fast that Aronnax can barely see anything, and Ned Land's escape plan is ruined.",
+      "quoteLines": [
+        11282,
+        11285
+      ],
+      "sourceLine": 11282
+    },
+    {
+      "id": "vigo-bay",
+      "name": "Bay of Vigo, Spain",
+      "kidName": "Where Nemo gets his gold",
+      "lat": 42.24,
+      "lon": -8.72,
+      "date": "1868-02-18",
+      "dateCertainty": "inferred",
+      "ordinal": 32,
+      "part": 2,
+      "chapter": 8,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 10000,
+      "note": "The wrecks of the Spanish treasure galleons sunk here in 1702. Aronnax finally understands where Nemo s wealth comes from - and what he does with it: he gives it to peoples fighting for their freedom. Dated by the crossing that ends on 18 February and the morning of the 19th that opens the next chapter.",
+      "quoteLines": [
+        11663,
+        11665
+      ],
+      "sourceLine": 11663
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis",
+      "kidName": "The ruins of a lost city",
+      "lat": 33.367,
+      "lon": -16.283,
+      "date": "1868-02-19",
+      "dateCertainty": "explicit",
+      "ordinal": 33,
+      "part": 2,
+      "chapter": 9,
+      "leg": "nautilus",
+      "placeKind": "fictional",
+      "note": "By the light of a volcano, Nemo shows Aronnax a drowned city on the sea floor and writes one word on a rock: ATLANTIS. Both figures given bare in the text; north and west, from the position 150 leagues off the nearest coast near Madeira.",
+      "quoteLines": [
+        12133,
+        12136
+      ],
+      "sourceLine": 12133
+    },
+    {
+      "id": "underwater-coalfields",
+      "name": "The undersea coal mine",
+      "kidName": "A volcano with a lake inside",
+      "lat": 33,
+      "lon": -17,
+      "date": "1868-02-20",
+      "dateCertainty": "explicit",
+      "ordinal": 34,
+      "part": 2,
+      "chapter": 10,
+      "leg": "nautilus",
+      "placeKind": "fictional",
+      "note": "The Nautilus sails up inside an extinct volcano through an underwater opening, and surfaces in a hidden lake with a beach - where Nemo's crew mine coal to make sodium for the batteries.",
+      "quoteLines": [
+        12488,
+        12490
+      ],
+      "sourceLine": 12488
+    },
+    {
+      "id": "sargasso-sea",
+      "name": "The Sargasso Sea",
+      "kidName": "A sea made of seaweed",
+      "lat": 30,
+      "lon": -45,
+      "date": "1868-02-22",
+      "dateCertainty": "explicit",
+      "ordinal": 35,
+      "part": 2,
+      "chapter": 11,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "A vast raft of floating weed in the middle of the Atlantic, held in place by the circling currents. Ships have been becalmed in it for weeks.",
+      "quoteLines": [
+        13005,
+        13007
+      ],
+      "sourceLine": 13005
+    },
+    {
+      "id": "south-atlantic-mar13",
+      "name": "South Atlantic",
+      "kidName": "13,000 leagues - and turning south",
+      "lat": -45.617,
+      "lon": -37.883,
+      "date": "1868-03-13",
+      "dateCertainty": "explicit",
+      "ordinal": 35,
+      "part": 2,
+      "chapter": 11,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 13000,
+      "note": "Nineteen days running south down the middle of the Atlantic. Here the Nautilus dives deeper than any ship has ever sounded.",
+      "quoteLines": [
+        13115,
+        13118
+      ],
+      "sourceLine": 13115
+    },
+    {
+      "id": "first-ice",
+      "name": "The first ice",
+      "kidName": "Icebergs ahead",
+      "lat": -55,
+      "lon": -45,
+      "date": "1868-03-14",
+      "dateCertainty": "explicit",
+      "ordinal": 37,
+      "part": 2,
+      "chapter": 13,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Latitude given bare as '55 degrees'; south, from the heading. Where is Nemo taking them? Ned Land has guessed, and cannot believe it.",
+      "quoteLines": [
+        13804,
+        13806
+      ],
+      "sourceLine": 13804
+    },
+    {
+      "id": "antarctic-circle",
+      "name": "The Antarctic Circle",
+      "kidName": "Past the Antarctic Circle",
+      "lat": -66.56,
+      "lon": -55,
+      "date": "1868-03-16",
+      "dateCertainty": "explicit",
+      "ordinal": 37,
+      "part": 2,
+      "chapter": 13,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Going along the 55th meridian. Autumn is closing in down here - in a few weeks the sun will set for six months.",
+      "quoteLines": [
+        13873,
+        13875
+      ],
+      "sourceLine": 13873
+    },
+    {
+      "id": "the-ice-bank",
+      "name": "The Ice Bank",
+      "kidName": "A wall of ice with no way through",
+      "lat": -67.65,
+      "lon": -51.5,
+      "date": "1868-03-18",
+      "dateCertainty": "explicit",
+      "ordinal": 37,
+      "part": 2,
+      "chapter": 13,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "After twenty attempts the Nautilus is stopped by an unbroken barrier of ice. So Nemo does the one thing no other ship could: he dives underneath it. Longitude read as west, from the 52nd meridian named a few pages later.",
+      "quoteLines": [
+        13957,
+        13960
+      ],
+      "sourceLine": 13957
+    },
+    {
+      "id": "south-pole",
+      "name": "The South Pole",
+      "kidName": "Standing at the bottom of the world",
+      "lat": -90,
+      "lon": 0,
+      "date": "1868-03-21",
+      "dateCertainty": "explicit",
+      "ordinal": 38,
+      "part": 2,
+      "chapter": 14,
+      "leg": "nautilus",
+      "placeKind": "fictional",
+      "note": "Under the ice and up into an open polar sea, to land no one had ever seen. Nemo waits for noon, takes the sun's altitude, and plants a black flag: 'I, Captain Nemo, on this 21st day of March 1868, have reached the South Pole.' In reality the pole sits under two miles of ice, and no one stood there until Amundsen in 1911.",
+      "quoteLines": [
+        14801,
+        14809
+      ],
+      "sourceLine": 14801
+    },
+    {
+      "id": "trapped-in-ice",
+      "name": "Trapped under the ice",
+      "kidName": "Sealed in - and the air running out",
+      "lat": -70,
+      "lon": -55,
+      "date": "1868-03-22",
+      "dateCertainty": "explicit",
+      "ordinal": 39,
+      "part": 2,
+      "chapter": 15,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 14000,
+      "note": "A capsizing iceberg pins the Nautilus in a sealed pocket of water. The crew cut at the ice from inside while the oxygen runs down, hour by hour. The scariest stretch in the book.",
+      "quoteLines": [
+        14824,
+        14826
+      ],
+      "sourceLine": 14824
+    },
+    {
+      "id": "breaking-free",
+      "name": "Breaking out",
+      "kidName": "Free - and up for air",
+      "lat": -65,
+      "lon": -55,
+      "date": "1868-03-28",
+      "dateCertainty": "explicit",
+      "ordinal": 40,
+      "part": 2,
+      "chapter": 16,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The Nautilus smashes up through the last of the ice. Aronnax has nearly suffocated; Ned Land and Conseil give him the last of the breathable air.",
+      "quoteLines": [
+        15576,
+        15578
+      ],
+      "sourceLine": 15576
+    },
+    {
+      "id": "cape-horn-return",
+      "name": "Cape Horn again",
+      "kidName": "Back round Cape Horn",
+      "lat": -56,
+      "lon": -67,
+      "date": "1868-03-31",
+      "dateCertainty": "explicit",
+      "ordinal": 41,
+      "part": 2,
+      "chapter": 17,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        15680,
+        15682
+      ],
+      "sourceLine": 15680
+    },
+    {
+      "id": "patagonia-apr3",
+      "name": "Patagonian waters",
+      "kidName": "Up the coast of Argentina",
+      "lat": -45,
+      "lon": -60,
+      "date": "1868-04-03",
+      "dateCertainty": "explicit",
+      "ordinal": 41,
+      "part": 2,
+      "chapter": 17,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        15787,
+        15789
+      ],
+      "sourceLine": 15787
+    },
+    {
+      "id": "uruguay",
+      "name": "Off Uruguay",
+      "kidName": "16,000 leagues covered",
+      "lat": -35,
+      "lon": -55,
+      "date": "1868-04-04",
+      "dateCertainty": "explicit",
+      "ordinal": 41,
+      "part": 2,
+      "chapter": 17,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 16000,
+      "quoteLines": [
+        15790,
+        15793
+      ],
+      "sourceLine": 15792
+    },
+    {
+      "id": "cape-sao-roque",
+      "name": "Eastern tip of Brazil",
+      "kidName": "The corner of South America",
+      "lat": -5.2,
+      "lon": -35.5,
+      "date": "1868-04-09",
+      "dateCertainty": "explicit",
+      "ordinal": 41,
+      "part": 2,
+      "chapter": 17,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        15803,
+        15805
+      ],
+      "sourceLine": 15803
+    },
+    {
+      "id": "amazon-mouth",
+      "name": "Mouth of the Amazon",
+      "kidName": "Where the great river meets the sea",
+      "lat": 0,
+      "lon": -47,
+      "date": "1868-04-11",
+      "dateCertainty": "explicit",
+      "ordinal": 41,
+      "part": 2,
+      "chapter": 17,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        15820,
+        15822
+      ],
+      "sourceLine": 15820
+    },
+    {
+      "id": "west-indies",
+      "name": "Martinique and Guadeloupe",
+      "kidName": "17,000 leagues covered",
+      "lat": 15.5,
+      "lon": -61.3,
+      "date": "1868-04-16",
+      "dateCertainty": "explicit",
+      "ordinal": 42,
+      "part": 2,
+      "chapter": 18,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 17000,
+      "quoteLines": [
+        16021,
+        16023
+      ],
+      "sourceLine": 16021
+    },
+    {
+      "id": "the-devilfish",
+      "name": "Bahama Channel",
+      "kidName": "The giant squid!",
+      "lat": 26.5,
+      "lon": -76,
+      "date": "1868-04-20",
+      "dateCertainty": "explicit",
+      "ordinal": 42,
+      "part": 2,
+      "chapter": 18,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "A pack of giant squid jams the propeller. The crew fight them hand to hand on the platform with axes and harpoons, and one of Nemo's men is carried away. Nemo weeps.",
+      "quoteLines": [
+        16108,
+        16110
+      ],
+      "sourceLine": 16108
+    },
+    {
+      "id": "gulf-stream",
+      "name": "The Gulf Stream",
+      "kidName": "A river inside the sea",
+      "lat": 30,
+      "lon": -79,
+      "date": "1868-05-01",
+      "dateCertainty": "explicit",
+      "ordinal": 43,
+      "part": 2,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "A warm current running through the cold ocean like a river with banks of its own. The Nautilus rides it north.",
+      "quoteLines": [
+        16518,
+        16520
+      ],
+      "sourceLine": 16518
+    },
+    {
+      "id": "cape-hatteras",
+      "name": "Cape Hatteras",
+      "kidName": "Ned Land's escape plan",
+      "lat": 35.25,
+      "lon": -75.5,
+      "date": "1868-05-08",
+      "dateCertainty": "explicit",
+      "ordinal": 43,
+      "part": 2,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        16614,
+        16616
+      ],
+      "sourceLine": 16614
+    },
+    {
+      "id": "the-storm",
+      "name": "North Atlantic storm",
+      "kidName": "Riding out a hurricane",
+      "lat": 40,
+      "lon": -68,
+      "date": "1868-05-13",
+      "dateCertainty": "explicit",
+      "ordinal": 43,
+      "part": 2,
+      "chapter": 19,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Nemo stands lashed on the platform in the middle of it, letting the storm break over him, while the Nautilus simply dives below the waves to calm water.",
+      "quoteLines": [
+        16826,
+        16828
+      ],
+      "sourceLine": 16826
+    },
+    {
+      "id": "grand-banks",
+      "name": "Grand Banks of Newfoundland",
+      "kidName": "Fog and fishing boats",
+      "lat": 43,
+      "lon": -50,
+      "date": "1868-05-15",
+      "dateCertainty": "explicit",
+      "ordinal": 44,
+      "part": 2,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        16965,
+        16967
+      ],
+      "sourceLine": 16965
+    },
+    {
+      "id": "telegraph-cable",
+      "name": "The transatlantic cable",
+      "kidName": "Following the telegraph wire",
+      "lat": 48,
+      "lon": -41,
+      "date": "1868-05-17",
+      "dateCertainty": "explicit",
+      "ordinal": 44,
+      "part": 2,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "They come across the cable that carries messages between America and Europe, lying on the sea bed, and follow it. It had only been working for two years when Verne wrote this.",
+      "quoteLines": [
+        17069,
+        17071
+      ],
+      "sourceLine": 17069
+    },
+    {
+      "id": "cable-break",
+      "name": "Where the cable broke",
+      "kidName": "The spot where the wire snapped",
+      "lat": 51.5,
+      "lon": -19,
+      "date": "1868-05-25",
+      "dateCertainty": "explicit",
+      "ordinal": 44,
+      "part": 2,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "quoteLines": [
+        17082,
+        17086
+      ],
+      "sourceLine": 17082
+    },
+    {
+      "id": "lands-end",
+      "name": "Land's End, England",
+      "kidName": "So close to home",
+      "lat": 49.9,
+      "lon": -6.3,
+      "date": "1868-05-30",
+      "dateCertainty": "explicit",
+      "ordinal": 44,
+      "part": 2,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "Within sight of England. If the Nautilus would only head east into the Channel, Ned Land could be ashore in a night. It does not.",
+      "quoteLines": [
+        17153,
+        17156
+      ],
+      "sourceLine": 17153
+    },
+    {
+      "id": "the-avenger",
+      "name": "47 deg 24' N, 17 deg 28' W",
+      "kidName": "The spot Nemo was looking for",
+      "lat": 47.4,
+      "lon": -17.467,
+      "date": "1868-06-01",
+      "dateCertainty": "explicit",
+      "ordinal": 44,
+      "part": 2,
+      "chapter": 20,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The Nautilus circles the same patch of empty ocean for days, searching. On the sea floor lies a wrecked warship - and this position gives the chapter its title. It is the grave of a ship that went down fighting rather than surrender.",
+      "quoteLines": [
+        17171,
+        17173
+      ],
+      "sourceLine": 17171
+    },
+    {
+      "id": "the-warship",
+      "name": "The attack",
+      "kidName": "Nemo sinks a warship",
+      "lat": 47,
+      "lon": -18,
+      "date": "1868-06-02",
+      "dateCertainty": "explicit",
+      "ordinal": 45,
+      "part": 2,
+      "chapter": 21,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "A warship attacks the Nautilus, and Nemo rams it below the waterline and takes it down with all hands, while Aronnax watches in horror. This is the moment Aronnax stops being able to admire him. Verne gives no date; it follows directly from 1 June.",
+      "quoteLines": [
+        17558,
+        17561
+      ],
+      "sourceLine": 17561
+    },
+    {
+      "id": "north-atlantic-flight",
+      "name": "Running north",
+      "kidName": "Where is he taking us now?",
+      "lat": 58,
+      "lon": -10,
+      "date": "1868-06-05",
+      "dateCertainty": "inferred",
+      "ordinal": 46,
+      "part": 2,
+      "chapter": 22,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "note": "The Nautilus flies north with nobody steering her, deeper into seas no one knows. Aronnax, Conseil and Ned Land decide to escape that night.",
+      "quoteLines": [
+        17683,
+        17686
+      ],
+      "sourceLine": 17684
+    },
+    {
+      "id": "the-maelstrom",
+      "name": "The Maelstrom, Norway",
+      "kidName": "Into the great whirlpool",
+      "lat": 67.9,
+      "lon": 12.9,
+      "date": "1868-06-06",
+      "dateCertainty": "inferred",
+      "ordinal": 47,
+      "part": 2,
+      "chapter": 23,
+      "leg": "nautilus",
+      "placeKind": "real",
+      "leagueMark": 20000,
+      "note": "The three cast off in the skiff at the worst possible moment - straight into the whirlpool between the Lofoten Islands. They wake in a fisherman's hut, alive. What became of the Nautilus, nobody knows. (Aronnax says the voyage covered 20,000 leagues 'in less than ten months', though the dates in the book run only from November to June - about seven.)",
+      "quoteLines": [
+        17953,
+        17958
+      ],
+      "sourceLine": 17954
+    }
+  ]
+}
